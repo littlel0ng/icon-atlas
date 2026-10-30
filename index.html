@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172822"><meta name="description" content="按技能概念跨游戏寻找图标参考，收藏并导出附带公开来源的美术参考单。">
+  <title>技能图鉴 · Icon Atlas</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="./" aria-label="技能图鉴首页"><span class="brandmark">◈</span><span>技能图鉴<small>ICON ATLAS / 01</small></span></a>
+  <div class="workspace-label">游戏研发 · 灵感工作台</div>
+  <nav class="mainnav" aria-label="主导航">
+    <button class="nav active" data-view="library"><span>▦</span>图标参考库<i id="totalBadge">…</i></button>
+    <button class="nav" data-view="board"><span>▧</span>我的参考板<i id="boardBadge">0</i></button>
+    <button class="nav" data-view="coverage"><span>◉</span>覆盖审计<i>快照</i></button>
+    <button class="nav" data-view="sources"><span>↗</span>公开来源导航</button>
+  </nav>
+  <div class="side-divider"></div>
+  <div class="filter-title">游戏来源 <button id="resetGame">重置</button></div>
+  <div id="games" class="game-list"></div>
+  <div class="filter-title filter-spaced">图标类别</div>
+  <div id="kinds" class="kind-list"></div>
+  <div class="sidebar-bottom"><span class="status-dot"></span> 公开来源 · 可追溯参考<small>为下一次灵感，少开几个标签页。</small></div>
+</aside>
+<div class="app">
+  <header class="topbar"><span><b>工作台</b><span class="breadcrumb"> / </span><span id="viewTitle">图标参考库</span></span><div><span class="data-date">索引 · 2026.10.27</span><button class="btn small" id="importBtn">导入参考板</button><input type="file" id="importFile" accept="application/json,.json" hidden></div></header>
+  <main>
+    <section class="intro"><div class="eyebrow"><span></span> THE REFERENCE FIELD GUIDE</div><div class="intro-row"><div><h1 id="headline">给技能一个<span>视觉起点。</span></h1><p id="subtitle">从一个概念出发，找到不同游戏的图标表达。</p></div><div class="intro-index"><strong id="heroCount">—</strong><span>条可显示参考 / <b>4</b> 款游戏</span></div></div></section>
+    <section id="libraryView">
+      <form id="searchForm" class="searchbox" role="search"><span class="search-symbol">⌕</span><input id="search" aria-label="搜索图标" autocomplete="off" placeholder="搜索概念：冰霜、护盾、吸血… 或输入英雄 / 技能名称"><button type="button" id="clearSearch" class="iconbtn" aria-label="清除搜索" hidden>×</button><kbd>/</kbd><button class="btn primary" type="submit">寻找参考 <span>↗</span></button></form>
+      <div class="suggestions"><span>试试这些</span><button data-query="冰霜">冰霜控制 ↗</button><button data-query="护盾">护盾保护 ↗</button><button data-query="吸血">生命汲取 ↗</button><button data-query="火焰">火焰爆发 ↗</button><button data-query="治疗">治疗恢复 ↗</button></div>
+      <div class="filterbar"><div id="tags" class="tags"></div><button id="moreTags" class="textbtn">更多标签 ＋</button></div>
+      <div class="facetbar" aria-label="组合筛选">
+        <label>元素 / 主题<select id="elementFilter" aria-label="元素主题筛选"></select></label>
+        <label>形状 / 构图<select id="shapeFilter" aria-label="形状构图筛选"></select></label>
+        <label>武器 / 物件<select id="objectFilter" aria-label="武器物件筛选"></select></label>
+        <label>英雄<select id="heroFilter" aria-label="英雄筛选"></select></label>
+        <label>图像依据<select id="availabilityFilter" aria-label="图像依据筛选"><option value="available">已验证图片</option><option value="direct">来源声明纹理</option><option value="related">关联参考图片</option><option value="missing">待补图记录</option><option value="all">全部记录 / 含历史</option></select></label>
+      </div>
+      <div class="facet-help">标签从名称与描述辅助整理，形状与物件请结合原图确认。<button class="textbtn" data-view="coverage">查看全英雄与 Buff 覆盖情况 ↗</button></div>
+      <div class="resultbar"><div><b id="resultsCount">正在读取图标索引…</b><span id="filterSummary"></span><button class="textbtn" id="resetFilters" hidden>清除筛选 ×</button></div><div class="display-controls"><label>预览底色 <select id="background" aria-label="预览底色"><option value="dark">深色</option><option value="light">浅色</option><option value="checker">透明网格</option></select></label><label>尺寸 <select id="size" aria-label="图标显示尺寸"><option value="normal">标准</option><option value="compact">紧凑</option></select></label></div></div>
+      <div id="grid" class="grid"></div><div id="empty" class="empty" hidden><span>⌕</span><h2>换个概念，再找一找</h2><p>当前索引没有匹配。可以清除筛选，或到公开来源继续检索。</p><button class="btn primary" id="emptyReset">清除筛选</button><button class="btn" id="searchOutside">到公开来源检索 ↗</button></div>
+      <div class="loadmore"><button id="loadMore" class="btn" hidden>加载更多参考 ↓</button><span id="loadedCount"></span></div>
+      <section class="continue-search"><span class="outward">↗</span><div><h3>灵感还可以去更远的地方。</h3><p>在魔兽世界、流放之路等公开数据库中继续寻找。</p></div><button class="btn" data-view="sources">打开来源导航 ↗</button></section>
+    </section>
+    <section id="boardView" hidden>
+      <div class="board-toolbar"><div><h2>这次想参考哪些表达？</h2><p>收藏保存在当前浏览器。导出 JSON 可备份、迁移；Markdown 可直接交给美术。</p></div><div><button id="exportJson" class="btn">备份 JSON ↓</button><button id="exportMd" class="btn primary">导出参考单 ↓</button></div></div>
+      <label class="board-title-label">参考单名称<input id="boardName" maxlength="100" placeholder="例如：冰系法师 · 技能与状态参考"></label>
+      <div id="boardGrid" class="grid"></div><div id="boardEmpty" class="empty" hidden><span>▧</span><h2>把有启发的图标放在这里</h2><p>点击图标右上角的 ＋，开始整理你的第一份美术参考单。</p><button class="btn primary" data-view="library">去寻找参考 ↗</button></div>
+    </section>
+    <section id="coverageView" hidden>
+      <div class="audit-heading"><div><h2>哪些已经完整，哪些还有缺口？</h2><p>英雄清单、基础技能槽、可显示图像分别核对；状态记录与独立图像分别统计。</p></div><a class="btn" href="coverage.json" download="icon-atlas-coverage.json">下载审计 JSON ↓</a></div>
+      <p id="coverageTopline" class="audit-counts"></p>
+      <div id="coverageSummary" class="audit-grid"></div>
+      <div class="coverage-caveat"><strong>Buff 完整性：尚未证实覆盖全部游戏状态</strong><p id="coverageLimits"></p></div>
+      <div id="coverageDetails"></div>
+    </section>
+    <section id="sourcesView" hidden><div class="source-search"><label for="externalQuery">带着关键词去原站找</label><input id="externalQuery" placeholder="例如：frost shield / 冰霜护盾"><p>下方“检索”使用 Bing 限定来源域名；“打开原站”直达公开数据库。</p></div><div id="sourceGrid" class="source-grid"></div><div class="source-note"><h3>关于这份图鉴</h3><p id="dataNote"></p><p>中文概念标签由规则辅助整理，用于发现参考，不代表最新游戏机制。Dota 2 / LoL 的技能图标与独立状态图标分开标记。网络搜索结果不计入本地图库。</p><p>图像由原站加载；若未能显示，可打开来源页。公开可访问不等于获得商用授权，图标版权归原权利方；这里用于设计研究与参考。</p></div></section>
+    <footer><span>ICON ATLAS <i> / </i> 为游戏研发收集视觉线索</span><span>关键词与分面筛选 · 图像依据可追溯 · 浏览器本地收藏</span></footer>
+  </main>
+</div>
+<dialog id="detail"><button id="closeDetail" class="modalclose" aria-label="关闭详情">×</button><div id="detailContent"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="app.js"></script>
+</body></html>

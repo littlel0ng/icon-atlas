@@ -1,0 +1,5436 @@
+{
+  "asOf": "2026-10-27",
+  "baseline": {
+    "dota": {
+      "heroes": 27,
+      "icons": 165,
+      "statuses": 0
+    },
+    "lol": {
+      "heroes": 24,
+      "icons": 120,
+      "statuses": 0
+    }
+  },
+  "dota": {
+    "rosterTotal": 127,
+    "heroes": [
+      {
+        "id": "antimage",
+        "name": "敌法师",
+        "en": "Anti-Mage",
+        "expected": [
+          "antimage_mana_break",
+          "antimage_blink",
+          "antimage_counterspell",
+          "antimage_persectur",
+          "antimage_mana_void"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=1",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "axe",
+        "name": "斧王",
+        "en": "Axe",
+        "expected": [
+          "axe_berserkers_call",
+          "axe_battle_hunger",
+          "axe_counter_helix",
+          "axe_culling_blade",
+          "axe_one_man_army"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=2",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "bane",
+        "name": "祸乱之源",
+        "en": "Bane",
+        "expected": [
+          "bane_enfeeble",
+          "bane_brain_sap",
+          "bane_nightmare",
+          "bane_fiends_grip",
+          "bane_ichor_of_nyctasha"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=3",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "bloodseeker",
+        "name": "血魔",
+        "en": "Bloodseeker",
+        "expected": [
+          "bloodseeker_bloodrage",
+          "bloodseeker_blood_bath",
+          "bloodseeker_thirst",
+          "bloodseeker_sanguivore",
+          "bloodseeker_rupture"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=4",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "crystal_maiden",
+        "name": "水晶室女",
+        "en": "Crystal Maiden",
+        "expected": [
+          "crystal_maiden_crystal_nova",
+          "crystal_maiden_frostbite",
+          "crystal_maiden_brilliance_aura",
+          "crystal_maiden_crystal_clone",
+          "crystal_maiden_glacial_guard",
+          "crystal_maiden_freezing_field"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=5",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "drow_ranger",
+        "name": "卓尔游侠",
+        "en": "Drow Ranger",
+        "expected": [
+          "drow_ranger_frost_arrows",
+          "drow_ranger_wave_of_silence",
+          "drow_ranger_multishot",
+          "drow_ranger_glacier",
+          "drow_ranger_trueshot",
+          "drow_ranger_marksmanship"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=6",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "earthshaker",
+        "name": "撼地者",
+        "en": "Earthshaker",
+        "expected": [
+          "earthshaker_fissure",
+          "earthshaker_enchant_totem",
+          "earthshaker_aftershock",
+          "earthshaker_echo_slam",
+          "earthshaker_slugger"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=7",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "juggernaut",
+        "name": "主宰",
+        "en": "Juggernaut",
+        "expected": [
+          "juggernaut_blade_fury",
+          "juggernaut_healing_ward",
+          "juggernaut_blade_dance",
+          "juggernaut_swift_slash",
+          "juggernaut_bladeform",
+          "juggernaut_omni_slash"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=8",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "mirana",
+        "name": "米拉娜",
+        "en": "Mirana",
+        "expected": [
+          "mirana_starfall",
+          "mirana_arrow",
+          "mirana_leap",
+          "mirana_celestial_quiver",
+          "mirana_invis"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=9",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "nevermore",
+        "name": "影魔",
+        "en": "Shadow Fiend",
+        "expected": [
+          "nevermore_shadowraze1",
+          "nevermore_frenzy",
+          "nevermore_dark_lord",
+          "nevermore_requiem",
+          "nevermore_necromastery"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=11",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "morphling",
+        "name": "变体精灵",
+        "en": "Morphling",
+        "expected": [
+          "morphling_waveform",
+          "morphling_adaptive_strike_agi",
+          "morphling_morph_agi",
+          "morphling_morph_str",
+          "morphling_replicate",
+          "morphling_ebb_and_flow"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=10",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "phantom_lancer",
+        "name": "幻影长矛手",
+        "en": "Phantom Lancer",
+        "expected": [
+          "phantom_lancer_spirit_lance",
+          "phantom_lancer_doppelwalk",
+          "phantom_lancer_phantom_edge",
+          "phantom_lancer_illusory_armaments",
+          "phantom_lancer_juxtapose"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=12",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "puck",
+        "name": "帕克",
+        "en": "Puck",
+        "expected": [
+          "puck_illusory_orb",
+          "puck_waning_rift",
+          "puck_phase_shift",
+          "puck_puckish",
+          "puck_dream_coil"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=13",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "pudge",
+        "name": "帕吉",
+        "en": "Pudge",
+        "expected": [
+          "pudge_meat_hook",
+          "pudge_rot",
+          "pudge_flesh_heap",
+          "pudge_innate_graft_flesh",
+          "pudge_dismember"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=14",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "razor",
+        "name": "雷泽",
+        "en": "Razor",
+        "expected": [
+          "razor_plasma_field",
+          "razor_static_link",
+          "razor_storm_surge",
+          "razor_unstable_current",
+          "razor_eye_of_the_storm"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=15",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "sand_king",
+        "name": "沙王",
+        "en": "Sand King",
+        "expected": [
+          "sandking_burrowstrike",
+          "sandking_sand_storm",
+          "sandking_scorpion_strike",
+          "sandking_caustic_finale",
+          "sandking_epicenter"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=16",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "storm_spirit",
+        "name": "风暴之灵",
+        "en": "Storm Spirit",
+        "expected": [
+          "storm_spirit_static_remnant",
+          "storm_spirit_electric_vortex",
+          "storm_spirit_overload",
+          "storm_spirit_ball_lightning",
+          "storm_spirit_galvanized"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=17",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "sven",
+        "name": "斯温",
+        "en": "Sven",
+        "expected": [
+          "sven_storm_bolt",
+          "sven_great_cleave",
+          "sven_warcry",
+          "sven_gods_strength",
+          "sven_wrath_of_god"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=18",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "tiny",
+        "name": "小小",
+        "en": "Tiny",
+        "expected": [
+          "tiny_avalanche",
+          "tiny_toss",
+          "tiny_tree_grab",
+          "tiny_tree_channel",
+          "tiny_insurmountable",
+          "tiny_grow",
+          "tiny_toss_tree"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=19",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "vengefulspirit",
+        "name": "复仇之魂",
+        "en": "Vengeful Spirit",
+        "expected": [
+          "vengefulspirit_magic_missile",
+          "vengefulspirit_wave_of_terror",
+          "vengefulspirit_command_aura",
+          "vengefulspirit_retribution",
+          "vengefulspirit_nether_swap"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=20",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "windrunner",
+        "name": "风行者",
+        "en": "Windranger",
+        "expected": [
+          "windrunner_shackleshot",
+          "windrunner_powershot",
+          "windrunner_windrun",
+          "windrunner_gale_force",
+          "windrunner_focusfire",
+          "windrunner_tailwind"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=21",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "zuus",
+        "name": "宙斯",
+        "en": "Zeus",
+        "expected": [
+          "zuus_arc_lightning",
+          "zuus_lightning_bolt",
+          "zuus_heavenly_jump",
+          "zuus_cloud",
+          "zuus_lightning_hands",
+          "zuus_thundergods_wrath",
+          "zuus_static_field"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=22",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "kunkka",
+        "name": "昆卡",
+        "en": "Kunkka",
+        "expected": [
+          "kunkka_torrent",
+          "kunkka_tidebringer",
+          "kunkka_x_marks_the_spot",
+          "kunkka_admirals_rum",
+          "kunkka_tidal_wave",
+          "kunkka_ghostship"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=23",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "lina",
+        "name": "莉娜",
+        "en": "Lina",
+        "expected": [
+          "lina_dragon_slave",
+          "lina_light_strike_array",
+          "lina_fiery_soul",
+          "lina_flame_cloak",
+          "lina_slow_burn",
+          "lina_laguna_blade"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=25",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "lich",
+        "name": "巫妖",
+        "en": "Lich",
+        "expected": [
+          "lich_frost_nova",
+          "lich_frost_shield",
+          "lich_sinister_gaze",
+          "lich_ice_spire",
+          "lich_death_charge",
+          "lich_chain_frost"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=31",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "lion",
+        "name": "莱恩",
+        "en": "Lion",
+        "expected": [
+          "lion_impale",
+          "lion_voodoo",
+          "lion_mana_drain",
+          "lion_to_hell_and_back",
+          "lion_finger_of_death"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=26",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "shadow_shaman",
+        "name": "暗影萨满",
+        "en": "Shadow Shaman",
+        "expected": [
+          "shadow_shaman_ether_shock",
+          "shadow_shaman_voodoo",
+          "shadow_shaman_shackles",
+          "shadow_shaman_fowl_play",
+          "shadow_shaman_urnaconda",
+          "shadow_shaman_mass_serpent_ward"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=27",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "slardar",
+        "name": "斯拉达",
+        "en": "Slardar",
+        "expected": [
+          "slardar_sprint",
+          "slardar_slithereen_crush",
+          "slardar_bash",
+          "slardar_seaborn_sentinel",
+          "slardar_amplify_damage"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=28",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "tidehunter",
+        "name": "潮汐猎人",
+        "en": "Tidehunter",
+        "expected": [
+          "tidehunter_gush",
+          "tidehunter_kraken_shell",
+          "tidehunter_anchor_smash",
+          "tidehunter_dead_in_the_water",
+          "tidehunter_ravage",
+          "tidehunter_leviathans_catch"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=29",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "witch_doctor",
+        "name": "巫医",
+        "en": "Witch Doctor",
+        "expected": [
+          "witch_doctor_paralyzing_cask",
+          "witch_doctor_voodoo_restoration",
+          "witch_doctor_maledict",
+          "witch_doctor_voodoo_switcheroo",
+          "witch_doctor_gris_gris",
+          "witch_doctor_death_ward"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=30",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "riki",
+        "name": "力丸",
+        "en": "Riki",
+        "expected": [
+          "riki_smoke_screen",
+          "riki_blink_strike",
+          "riki_tricks_of_the_trade",
+          "riki_innate_backstab",
+          "riki_backstab"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=32",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "enigma",
+        "name": "谜团",
+        "en": "Enigma",
+        "expected": [
+          "enigma_malefice",
+          "enigma_demonic_conversion",
+          "enigma_midnight_pulse",
+          "enigma_event_horizon",
+          "enigma_black_hole"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=33",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "tinker",
+        "name": "修补匠",
+        "en": "Tinker",
+        "expected": [
+          "tinker_laser",
+          "tinker_march_of_the_machines",
+          "tinker_deploy_turrets",
+          "tinker_warp_grenade",
+          "tinker_rearm",
+          "tinker_eureka"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=34",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "sniper",
+        "name": "狙击手",
+        "en": "Sniper",
+        "expected": [
+          "sniper_shrapnel",
+          "sniper_headshot",
+          "sniper_take_aim",
+          "sniper_concussive_grenade",
+          "sniper_keen_scope",
+          "sniper_assassinate"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=35",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "necrolyte",
+        "name": "瘟疫法师",
+        "en": "Necrophos",
+        "expected": [
+          "necrolyte_death_pulse",
+          "necrolyte_ghost_shroud",
+          "necrolyte_heartstopper_aura",
+          "necrolyte_death_seeker",
+          "necrolyte_sadist",
+          "necrolyte_reapers_scythe"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=36",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "warlock",
+        "name": "术士",
+        "en": "Warlock",
+        "expected": [
+          "warlock_fatal_bonds",
+          "warlock_shadow_word",
+          "warlock_upheaval",
+          "warlock_eldritch_summoning",
+          "warlock_rain_of_chaos"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=37",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "beastmaster",
+        "name": "兽王",
+        "en": "Beastmaster",
+        "expected": [
+          "beastmaster_wild_axes",
+          "beastmaster_summon_razorback",
+          "beastmaster_summon_raptor",
+          "beastmaster_inner_beast",
+          "beastmaster_drums_of_slom",
+          "beastmaster_primal_roar"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=38",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "queenofpain",
+        "name": "痛苦女王",
+        "en": "Queen of Pain",
+        "expected": [
+          "queenofpain_shadow_strike",
+          "queenofpain_blink",
+          "queenofpain_scream_of_pain",
+          "queenofpain_succubus",
+          "queenofpain_sonic_wave"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=39",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "venomancer",
+        "name": "剧毒术士",
+        "en": "Venomancer",
+        "expected": [
+          "venomancer_venomous_gale",
+          "venomancer_snakebite",
+          "venomancer_plague_ward",
+          "venomancer_poison_sting",
+          "venomancer_noxious_plague"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=40",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "faceless_void",
+        "name": "虚空假面",
+        "en": "Faceless Void",
+        "expected": [
+          "faceless_void_time_walk",
+          "faceless_void_time_dilation",
+          "faceless_void_time_lock",
+          "faceless_void_time_walk_reverse",
+          "faceless_void_distortion_field",
+          "faceless_void_chronosphere"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=41",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "skeleton_king",
+        "name": "冥魂大帝",
+        "en": "Wraith King",
+        "expected": [
+          "skeleton_king_hellfire_blast",
+          "skeleton_king_bone_guard",
+          "skeleton_king_mortal_strike",
+          "skeleton_king_vampiric_spirit",
+          "skeleton_king_reincarnation"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=42",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "death_prophet",
+        "name": "死亡先知",
+        "en": "Death Prophet",
+        "expected": [
+          "death_prophet_carrion_swarm",
+          "death_prophet_silence",
+          "death_prophet_spirit_siphon",
+          "death_prophet_witchcraft",
+          "death_prophet_exorcism"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=43",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "phantom_assassin",
+        "name": "幻影刺客",
+        "en": "Phantom Assassin",
+        "expected": [
+          "phantom_assassin_stifling_dagger",
+          "phantom_assassin_phantom_strike",
+          "phantom_assassin_blur",
+          "phantom_assassin_fan_of_knives",
+          "phantom_assassin_immaterial",
+          "phantom_assassin_coup_de_grace"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=44",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "pugna",
+        "name": "帕格纳",
+        "en": "Pugna",
+        "expected": [
+          "pugna_nether_blast",
+          "pugna_decrepify",
+          "pugna_nether_ward",
+          "pugna_oblivion_savant",
+          "pugna_life_drain"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=45",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "templar_assassin",
+        "name": "圣堂刺客",
+        "en": "Templar Assassin",
+        "expected": [
+          "templar_assassin_refraction",
+          "templar_assassin_meld",
+          "templar_assassin_psi_blades",
+          "templar_assassin_trap_teleport",
+          "templar_assassin_psionic_trap",
+          "templar_assassin_inner_peace"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=46",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "viper",
+        "name": "冥界亚龙",
+        "en": "Viper",
+        "expected": [
+          "viper_poison_attack",
+          "viper_nethertoxin",
+          "viper_corrosive_skin",
+          "viper_nose_dive",
+          "viper_predator",
+          "viper_viper_strike"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=47",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "luna",
+        "name": "露娜",
+        "en": "Luna",
+        "expected": [
+          "luna_lucent_beam",
+          "luna_lunar_orbit",
+          "luna_moon_glaive",
+          "luna_lunar_blessing",
+          "luna_eclipse"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=48",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "dragon_knight",
+        "name": "龙骑士",
+        "en": "Dragon Knight",
+        "expected": [
+          "dragon_knight_breathe_fire",
+          "dragon_knight_dragon_tail",
+          "dragon_knight_wyrms_wrath",
+          "dragon_knight_fireball",
+          "dragon_knight_dragon_blood",
+          "dragon_knight_elder_dragon_form"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=49",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "dazzle",
+        "name": "戴泽",
+        "en": "Dazzle",
+        "expected": [
+          "dazzle_poison_touch",
+          "dazzle_shallow_grave",
+          "dazzle_shadow_wave",
+          "dazzle_innate_weave",
+          "dazzle_nothl_projection"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=50",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "rattletrap",
+        "name": "发条技师",
+        "en": "Clockwerk",
+        "expected": [
+          "rattletrap_battery_assault",
+          "rattletrap_power_cogs",
+          "rattletrap_rocket_flare",
+          "rattletrap_overclocking",
+          "rattletrap_jetpack",
+          "rattletrap_hookshot",
+          "rattletrap_armor_power"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=51",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "leshrac",
+        "name": "拉席克",
+        "en": "Leshrac",
+        "expected": [
+          "leshrac_split_earth",
+          "leshrac_diabolic_edict",
+          "leshrac_lightning_storm",
+          "leshrac_greater_lightning_storm",
+          "leshrac_defilement",
+          "leshrac_pulse_nova"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=52",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "furion",
+        "name": "自然先知",
+        "en": "Nature's Prophet",
+        "expected": [
+          "furion_sprout",
+          "furion_teleportation",
+          "furion_force_of_nature",
+          "furion_curse_of_the_forest",
+          "furion_spirit_of_the_forest",
+          "furion_wrath_of_nature"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=53",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "life_stealer",
+        "name": "噬魂鬼",
+        "en": "Lifestealer",
+        "expected": [
+          "life_stealer_rage",
+          "life_stealer_open_wounds",
+          "life_stealer_feast",
+          "life_stealer_ghoul_frenzy",
+          "life_stealer_infest"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=54",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "dark_seer",
+        "name": "黑暗贤者",
+        "en": "Dark Seer",
+        "expected": [
+          "dark_seer_vacuum",
+          "dark_seer_ion_shell",
+          "dark_seer_surge",
+          "dark_seer_normal_punch",
+          "dark_seer_aggrandize",
+          "dark_seer_wall_of_replica"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=55",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "clinkz",
+        "name": "克林克兹",
+        "en": "Clinkz",
+        "expected": [
+          "clinkz_strafe",
+          "clinkz_searing_arrows",
+          "clinkz_death_pact",
+          "clinkz_burning_barrage",
+          "clinkz_burning_army",
+          "clinkz_wind_walk",
+          "clinkz_infernal_shred"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=56",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "omniknight",
+        "name": "全能骑士",
+        "en": "Omniknight",
+        "expected": [
+          "omniknight_purification",
+          "omniknight_martyr",
+          "omniknight_hammer_of_purity",
+          "omniknight_degen_aura",
+          "omniknight_guardian_angel"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=57",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "enchantress",
+        "name": "魅惑魔女",
+        "en": "Enchantress",
+        "expected": [
+          "enchantress_impetus",
+          "enchantress_enchant",
+          "enchantress_natures_attendants",
+          "enchantress_bunny_hop",
+          "enchantress_little_friends",
+          "enchantress_untouchable",
+          "enchantress_rabblerouser"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=58",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "huskar",
+        "name": "哈斯卡",
+        "en": "Huskar",
+        "expected": [
+          "huskar_inner_fire",
+          "huskar_burning_spear",
+          "huskar_berserkers_blood",
+          "huskar_blood_magic",
+          "huskar_life_break"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=59",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "night_stalker",
+        "name": "暗夜魔王",
+        "en": "Night Stalker",
+        "expected": [
+          "night_stalker_void",
+          "night_stalker_crippling_fear",
+          "night_stalker_midnight_feast",
+          "night_stalker_hunter_in_the_night",
+          "night_stalker_darkness"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=60",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "broodmother",
+        "name": "育母蜘蛛",
+        "en": "Broodmother",
+        "expected": [
+          "broodmother_insatiable_hunger",
+          "broodmother_spin_web",
+          "broodmother_incapacitating_bite",
+          "broodmother_sticky_snare",
+          "broodmother_spiders_milk",
+          "broodmother_spawn_spiderlings"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=61",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "bounty_hunter",
+        "name": "赏金猎人",
+        "en": "Bounty Hunter",
+        "expected": [
+          "bounty_hunter_shuriken_toss",
+          "bounty_hunter_jinada",
+          "bounty_hunter_wind_walk",
+          "bounty_hunter_wind_walk_ally",
+          "bounty_hunter_big_game_hunter",
+          "bounty_hunter_track"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=62",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "weaver",
+        "name": "编织者",
+        "en": "Weaver",
+        "expected": [
+          "weaver_the_swarm",
+          "weaver_shukuchi",
+          "weaver_geminate_attack",
+          "weaver_time_lapse",
+          "weaver_threads_of_fate"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=63",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "jakiro",
+        "name": "杰奇洛",
+        "en": "Jakiro",
+        "expected": [
+          "jakiro_dual_breath",
+          "jakiro_ice_path",
+          "jakiro_liquid_fire",
+          "jakiro_liquid_ice",
+          "jakiro_double_trouble",
+          "jakiro_macropyre"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=64",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "batrider",
+        "name": "蝙蝠骑士",
+        "en": "Batrider",
+        "expected": [
+          "batrider_sticky_napalm",
+          "batrider_flamebreak",
+          "batrider_firefly",
+          "batrider_smoldering_resin",
+          "batrider_flaming_lasso"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=65",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "chen",
+        "name": "陈",
+        "en": "Chen",
+        "expected": [
+          "chen_penitence",
+          "chen_holy_persuasion",
+          "chen_divine_favor",
+          "chen_zealot",
+          "chen_hand_of_god"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=66",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "spectre",
+        "name": "幽鬼",
+        "en": "Spectre",
+        "expected": [
+          "spectre_spectral_dagger",
+          "spectre_shadow_step",
+          "spectre_dispersion",
+          "spectre_desolate",
+          "spectre_haunt"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=67",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "doom_bringer",
+        "name": "末日使者",
+        "en": "Doom",
+        "expected": [
+          "doom_bringer_devour",
+          "doom_bringer_scorched_earth",
+          "doom_bringer_infernal_blade",
+          "doom_bringer_doom",
+          "doom_bringer_lvl_pain"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=69",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "ancient_apparition",
+        "name": "远古冰魄",
+        "en": "Ancient Apparition",
+        "expected": [
+          "ancient_apparition_cold_feet",
+          "ancient_apparition_ice_vortex",
+          "ancient_apparition_chilling_touch",
+          "ancient_apparition_bone_chill",
+          "ancient_apparition_ice_blast"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=68",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "ursa",
+        "name": "熊战士",
+        "en": "Ursa",
+        "expected": [
+          "ursa_earthshock",
+          "ursa_overpower",
+          "ursa_fury_swipes",
+          "ursa_maul",
+          "ursa_enrage"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=70",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "spirit_breaker",
+        "name": "裂魂人",
+        "en": "Spirit Breaker",
+        "expected": [
+          "spirit_breaker_charge_of_darkness",
+          "spirit_breaker_bulldoze",
+          "spirit_breaker_greater_bash",
+          "spirit_breaker_planar_pocket",
+          "spirit_breaker_bull_rush",
+          "spirit_breaker_nether_strike"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=71",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "gyrocopter",
+        "name": "矮人直升机",
+        "en": "Gyrocopter",
+        "expected": [
+          "gyrocopter_rocket_barrage",
+          "gyrocopter_homing_missile",
+          "gyrocopter_flak_cannon",
+          "gyrocopter_afterburner",
+          "gyrocopter_side_gunner_spawn_ability",
+          "gyrocopter_call_down"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=72",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "alchemist",
+        "name": "炼金术士",
+        "en": "Alchemist",
+        "expected": [
+          "alchemist_acid_spray",
+          "alchemist_unstable_concoction",
+          "alchemist_corrosive_weaponry",
+          "alchemist_berserk_potion",
+          "alchemist_goblins_greed",
+          "alchemist_chemical_rage"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=73",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "invoker",
+        "name": "祈求者",
+        "en": "Invoker",
+        "expected": [
+          "invoker_quas",
+          "invoker_wex",
+          "invoker_exort",
+          "invoker_invoke",
+          "invoker_cold_snap",
+          "invoker_ghost_walk",
+          "invoker_tornado",
+          "invoker_emp",
+          "invoker_alacrity",
+          "invoker_chaos_meteor",
+          "invoker_sun_strike",
+          "invoker_forge_spirit",
+          "invoker_ice_wall",
+          "invoker_deafening_blast"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=74",
+        "indexedSlots": 14,
+        "expectedSlots": 14,
+        "verifiedIcons": 14,
+        "missingIcons": []
+      },
+      {
+        "id": "silencer",
+        "name": "沉默术士",
+        "en": "Silencer",
+        "expected": [
+          "silencer_curse_of_the_silent",
+          "silencer_glaives_of_wisdom",
+          "silencer_last_word",
+          "silencer_brain_drain",
+          "silencer_global_silence"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=75",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "obsidian_destroyer",
+        "name": "殁境神蚀者",
+        "en": "Outworld Destroyer",
+        "expected": [
+          "obsidian_destroyer_arcane_orb",
+          "obsidian_destroyer_astral_imprisonment",
+          "obsidian_destroyer_objurgation",
+          "obsidian_destroyer_equilibrium",
+          "obsidian_destroyer_sanity_eclipse"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=76",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "lycan",
+        "name": "狼人",
+        "en": "Lycan",
+        "expected": [
+          "lycan_summon_wolves",
+          "lycan_howl",
+          "lycan_feral_impulse",
+          "lycan_wolf_bite",
+          "lycan_apex_predator",
+          "lycan_shapeshift"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=77",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "brewmaster",
+        "name": "酒仙",
+        "en": "Brewmaster",
+        "expected": [
+          "brewmaster_thunder_clap",
+          "brewmaster_cinder_brew",
+          "brewmaster_drunken_brawler",
+          "brewmaster_liquid_courage",
+          "brewmaster_primal_split"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=78",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "shadow_demon",
+        "name": "暗影恶魔",
+        "en": "Shadow Demon",
+        "expected": [
+          "shadow_demon_disruption",
+          "shadow_demon_disseminate",
+          "shadow_demon_shadow_poison",
+          "shadow_demon_demonic_cleanse",
+          "shadow_demon_demonic_purge",
+          "shadow_demon_menace"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=79",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "lone_druid",
+        "name": "独行德鲁伊",
+        "en": "Lone Druid",
+        "expected": [
+          "lone_druid_entangle",
+          "lone_druid_spirit_link",
+          "lone_druid_savage_roar",
+          "lone_druid_spirit_bear",
+          "lone_druid_true_form"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=80",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "chaos_knight",
+        "name": "混沌骑士",
+        "en": "Chaos Knight",
+        "expected": [
+          "chaos_knight_chaos_bolt",
+          "chaos_knight_reality_rift",
+          "chaos_knight_chaos_strike",
+          "chaos_knight_fundamental_forging",
+          "chaos_knight_phantasm"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=81",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "meepo",
+        "name": "米波",
+        "en": "Meepo",
+        "expected": [
+          "meepo_earthbind",
+          "meepo_poof",
+          "meepo_ransack",
+          "meepo_petrify",
+          "meepo_megameepo",
+          "meepo_divided_we_stand",
+          "meepo_geomancy",
+          "meepo_megameepo_fling"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=82",
+        "indexedSlots": 8,
+        "expectedSlots": 8,
+        "verifiedIcons": 8,
+        "missingIcons": []
+      },
+      {
+        "id": "treant",
+        "name": "树精卫士",
+        "en": "Treant Protector",
+        "expected": [
+          "treant_natures_grasp",
+          "treant_leech_seed",
+          "treant_living_armor",
+          "treant_eyes_in_the_forest",
+          "treant_natures_guise",
+          "treant_overgrowth"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=83",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "ogre_magi",
+        "name": "食人魔魔法师",
+        "en": "Ogre Magi",
+        "expected": [
+          "ogre_magi_fireblast",
+          "ogre_magi_ignite",
+          "ogre_magi_bloodlust",
+          "ogre_magi_unrefined_fireblast",
+          "ogre_magi_smash",
+          "ogre_magi_dumb_luck",
+          "ogre_magi_multicast"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=84",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "undying",
+        "name": "不朽尸王",
+        "en": "Undying",
+        "expected": [
+          "undying_decay",
+          "undying_soul_rip",
+          "undying_tombstone",
+          "undying_ceaseless_dirge",
+          "undying_flesh_golem"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=85",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "rubick",
+        "name": "拉比克",
+        "en": "Rubick",
+        "expected": [
+          "rubick_telekinesis",
+          "rubick_fade_bolt",
+          "rubick_arcane_supremacy",
+          "rubick_spell_steal",
+          "rubick_curiosity"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=86",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "disruptor",
+        "name": "干扰者",
+        "en": "Disruptor",
+        "expected": [
+          "disruptor_thunder_strike",
+          "disruptor_glimpse",
+          "disruptor_kinetic_field",
+          "disruptor_kinetic_fence",
+          "disruptor_electromagnetic_repulsion",
+          "disruptor_static_storm"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=87",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "nyx_assassin",
+        "name": "司夜刺客",
+        "en": "Nyx Assassin",
+        "expected": [
+          "nyx_assassin_impale",
+          "nyx_assassin_jolt",
+          "nyx_assassin_spiked_carapace",
+          "nyx_assassin_burrow",
+          "nyx_assassin_neuro_sting",
+          "nyx_assassin_vendetta"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=88",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "naga_siren",
+        "name": "娜迦海妖",
+        "en": "Naga Siren",
+        "expected": [
+          "naga_siren_mirror_image",
+          "naga_siren_ensnare",
+          "naga_siren_rip_tide",
+          "naga_siren_eelskin",
+          "naga_siren_song_of_the_siren"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=89",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "keeper_of_the_light",
+        "name": "光之守卫",
+        "en": "Keeper of the Light",
+        "expected": [
+          "keeper_of_the_light_illuminate",
+          "keeper_of_the_light_blinding_light",
+          "keeper_of_the_light_chakra_magic",
+          "keeper_of_the_light_radiant_bind",
+          "keeper_of_the_light_will_o_wisp",
+          "keeper_of_the_light_spirit_form",
+          "keeper_of_the_light_bright_speed"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=90",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "wisp",
+        "name": "艾欧",
+        "en": "Io",
+        "expected": [
+          "wisp_tether",
+          "wisp_spirits",
+          "wisp_overcharge",
+          "wisp_spirits_in",
+          "wisp_spirits_out",
+          "wisp_relocate",
+          "wisp_equilibrium"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=91",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "visage",
+        "name": "维萨吉",
+        "en": "Visage",
+        "expected": [
+          "visage_grave_chill",
+          "visage_soul_assumption",
+          "visage_gravekeepers_cloak",
+          "visage_silent_as_the_grave",
+          "visage_summon_familiars"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=92",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "slark",
+        "name": "斯拉克",
+        "en": "Slark",
+        "expected": [
+          "slark_dark_pact",
+          "slark_pounce",
+          "slark_saltwater_shiv",
+          "slark_depth_shroud",
+          "slark_essence_shift",
+          "slark_shadow_dance"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=93",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "medusa",
+        "name": "美杜莎",
+        "en": "Medusa",
+        "expected": [
+          "medusa_split_shot",
+          "medusa_mystic_snake",
+          "medusa_gorgon_grasp",
+          "medusa_cold_blooded",
+          "medusa_mana_shield",
+          "medusa_stone_gaze"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=94",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "troll_warlord",
+        "name": "巨魔战将",
+        "en": "Troll Warlord",
+        "expected": [
+          "troll_warlord_switch_stance",
+          "troll_warlord_whirling_axes_ranged",
+          "troll_warlord_whirling_axes_melee",
+          "troll_warlord_fervor",
+          "troll_warlord_berserkers_rage",
+          "troll_warlord_battle_trance"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=95",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "centaur",
+        "name": "半人马战行者",
+        "en": "Centaur Warrunner",
+        "expected": [
+          "centaur_hoof_stomp",
+          "centaur_double_edge",
+          "centaur_return",
+          "centaur_work_horse",
+          "centaur_stampede",
+          "centaur_horsepower"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=96",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "magnataur",
+        "name": "马格纳斯",
+        "en": "Magnus",
+        "expected": [
+          "magnataur_shockwave",
+          "magnataur_empower",
+          "magnataur_skewer",
+          "magnataur_horn_toss",
+          "magnataur_solid_core",
+          "magnataur_reverse_polarity"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=97",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "shredder",
+        "name": "伐木机",
+        "en": "Timbersaw",
+        "expected": [
+          "shredder_whirling_death",
+          "shredder_timber_chain",
+          "shredder_reactive_armor",
+          "shredder_flamethrower",
+          "shredder_chakram",
+          "shredder_exposure_therapy"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=98",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "bristleback",
+        "name": "钢背兽",
+        "en": "Bristleback",
+        "expected": [
+          "bristleback_viscous_nasal_goo",
+          "bristleback_quill_spray",
+          "bristleback_bristleback",
+          "bristleback_hairball",
+          "bristleback_warpath",
+          "bristleback_prickly"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=99",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "tusk",
+        "name": "巨牙海民",
+        "en": "Tusk",
+        "expected": [
+          "tusk_ice_shards",
+          "tusk_snowball",
+          "tusk_tag_team",
+          "tusk_drinking_buddies",
+          "tusk_walrus_kick",
+          "tusk_walrus_punch",
+          "tusk_bitter_chill"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=100",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "skywrath_mage",
+        "name": "天怒法师",
+        "en": "Skywrath Mage",
+        "expected": [
+          "skywrath_mage_arcane_bolt",
+          "skywrath_mage_concussive_shot",
+          "skywrath_mage_ancient_seal",
+          "skywrath_mage_shield_of_the_scion",
+          "skywrath_mage_mystic_flare"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=101",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "abaddon",
+        "name": "亚巴顿",
+        "en": "Abaddon",
+        "expected": [
+          "abaddon_death_coil",
+          "abaddon_aphotic_shield",
+          "abaddon_frostmourne",
+          "abaddon_withering_mist",
+          "abaddon_borrowed_time"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=102",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "elder_titan",
+        "name": "上古巨神",
+        "en": "Elder Titan",
+        "expected": [
+          "elder_titan_echo_stomp",
+          "elder_titan_ancestral_spirit",
+          "elder_titan_natural_order",
+          "elder_titan_momentum",
+          "elder_titan_earth_splitter"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=103",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "legion_commander",
+        "name": "军团指挥官",
+        "en": "Legion Commander",
+        "expected": [
+          "legion_commander_overwhelming_odds",
+          "legion_commander_press_the_attack",
+          "legion_commander_moment_of_courage",
+          "legion_commander_outfight_them",
+          "legion_commander_duel"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=104",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "ember_spirit",
+        "name": "灰烬之灵",
+        "en": "Ember Spirit",
+        "expected": [
+          "ember_spirit_searing_chains",
+          "ember_spirit_sleight_of_fist",
+          "ember_spirit_flame_guard",
+          "ember_spirit_activate_fire_remnant",
+          "ember_spirit_immolation",
+          "ember_spirit_fire_remnant"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=106",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "earth_spirit",
+        "name": "大地之灵",
+        "en": "Earth Spirit",
+        "expected": [
+          "earth_spirit_boulder_smash",
+          "earth_spirit_rolling_boulder",
+          "earth_spirit_geomagnetic_grip",
+          "earth_spirit_stone_caller",
+          "earth_spirit_petrify",
+          "earth_spirit_magnetize"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=107",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "terrorblade",
+        "name": "恐怖利刃",
+        "en": "Terrorblade",
+        "expected": [
+          "terrorblade_reflection",
+          "terrorblade_conjure_image",
+          "terrorblade_metamorphosis",
+          "terrorblade_demon_zeal",
+          "terrorblade_terror_wave",
+          "terrorblade_sunder",
+          "terrorblade_dark_unity"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=109",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "phoenix",
+        "name": "凤凰",
+        "en": "Phoenix",
+        "expected": [
+          "phoenix_icarus_dive",
+          "phoenix_fire_spirits",
+          "phoenix_sun_ray",
+          "phoenix_dying_light",
+          "phoenix_supernova"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=110",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "oracle",
+        "name": "神谕者",
+        "en": "Oracle",
+        "expected": [
+          "oracle_fortunes_end",
+          "oracle_fates_edict",
+          "oracle_purifying_flames",
+          "oracle_rain_of_destiny",
+          "oracle_false_promise",
+          "oracle_prognosticate"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=111",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "techies",
+        "name": "工程师",
+        "en": "Techies",
+        "expected": [
+          "techies_sticky_bomb",
+          "techies_reactive_tazer",
+          "techies_suicide",
+          "techies_mutually_assured_destruction",
+          "techies_minefield_sign",
+          "techies_land_mines"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=105",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "winter_wyvern",
+        "name": "寒冬飞龙",
+        "en": "Winter Wyvern",
+        "expected": [
+          "winter_wyvern_arctic_burn",
+          "winter_wyvern_splinter_blast",
+          "winter_wyvern_cold_embrace",
+          "winter_wyvern_eldwurms_edda",
+          "winter_wyvern_winters_curse"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=112",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "arc_warden",
+        "name": "天穹守望者",
+        "en": "Arc Warden",
+        "expected": [
+          "arc_warden_flux",
+          "arc_warden_magnetic_field",
+          "arc_warden_spark_wraith",
+          "arc_warden_runic_infusion",
+          "arc_warden_tempest_double"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=113",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "abyssal_underlord",
+        "name": "孽主",
+        "en": "Underlord",
+        "expected": [
+          "abyssal_underlord_firestorm",
+          "abyssal_underlord_pit_of_malice",
+          "abyssal_underlord_atrophy_aura",
+          "abyssal_underlord_raid_boss",
+          "abyssal_underlord_dark_portal"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=108",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "monkey_king",
+        "name": "齐天大圣",
+        "en": "Monkey King",
+        "expected": [
+          "monkey_king_boundless_strike",
+          "monkey_king_tree_dance",
+          "monkey_king_jingu_mastery",
+          "monkey_king_mischief",
+          "monkey_king_wukongs_command",
+          "monkey_king_transfiguration"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=114",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "pangolier",
+        "name": "石鳞剑士",
+        "en": "Pangolier",
+        "expected": [
+          "pangolier_swashbuckle",
+          "pangolier_shield_crash",
+          "pangolier_lucky_shot",
+          "pangolier_rollup",
+          "pangolier_gyroshell",
+          "pangolier_fortune_favors_the_bold"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=120",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "dark_willow",
+        "name": "邪影芳灵",
+        "en": "Dark Willow",
+        "expected": [
+          "dark_willow_bramble_maze",
+          "dark_willow_shadow_realm",
+          "dark_willow_cursed_crown",
+          "dark_willow_bedlam",
+          "dark_willow_pixie_dust",
+          "dark_willow_terrorize"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=119",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "grimstroke",
+        "name": "天涯墨客",
+        "en": "Grimstroke",
+        "expected": [
+          "grimstroke_dark_artistry",
+          "grimstroke_ink_creature",
+          "grimstroke_spirit_walk",
+          "grimstroke_dark_portrait",
+          "grimstroke_soul_chain",
+          "grimstroke_ink_trail"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=121",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "mars",
+        "name": "玛尔斯",
+        "en": "Mars",
+        "expected": [
+          "mars_spear",
+          "mars_gods_rebuke",
+          "mars_bulwark",
+          "mars_dauntless",
+          "mars_arena_of_blood"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=129",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "void_spirit",
+        "name": "虚无之灵",
+        "en": "Void Spirit",
+        "expected": [
+          "void_spirit_aether_remnant",
+          "void_spirit_dissimilate",
+          "void_spirit_resonant_pulse",
+          "void_spirit_intrinsic_edge",
+          "void_spirit_astral_step"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=126",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "snapfire",
+        "name": "电炎绝手",
+        "en": "Snapfire",
+        "expected": [
+          "snapfire_scatterblast",
+          "snapfire_firesnap_cookie",
+          "snapfire_lil_shredder",
+          "snapfire_gobble_up",
+          "snapfire_spit_creep",
+          "snapfire_mortimer_kisses",
+          "snapfire_boomstick"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=128",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "hoodwink",
+        "name": "森海飞霞",
+        "en": "Hoodwink",
+        "expected": [
+          "hoodwink_acorn_shot",
+          "hoodwink_bushwhack",
+          "hoodwink_scurry",
+          "hoodwink_decoy",
+          "hoodwink_hunters_boomerang",
+          "hoodwink_sharpshooter",
+          "hoodwink_mistwoods_wayfarer"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=123",
+        "indexedSlots": 7,
+        "expectedSlots": 7,
+        "verifiedIcons": 7,
+        "missingIcons": []
+      },
+      {
+        "id": "dawnbreaker",
+        "name": "破晓辰星",
+        "en": "Dawnbreaker",
+        "expected": [
+          "dawnbreaker_fire_wreath",
+          "dawnbreaker_celestial_hammer",
+          "dawnbreaker_luminosity",
+          "dawnbreaker_break_of_dawn",
+          "dawnbreaker_solar_guardian"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=135",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "marci",
+        "name": "玛西",
+        "en": "Marci",
+        "expected": [
+          "marci_grapple",
+          "marci_companion_run",
+          "marci_bodyguard",
+          "marci_special_delivery",
+          "marci_unleash"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=136",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": []
+      },
+      {
+        "id": "primal_beast",
+        "name": "獸",
+        "en": "Primal Beast",
+        "expected": [
+          "primal_beast_onslaught",
+          "primal_beast_trample",
+          "primal_beast_uproar",
+          "primal_beast_rock_throw",
+          "primal_beast_pulverize",
+          "primal_beast_colossal"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=137",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "muerta",
+        "name": "琼英碧灵",
+        "en": "Muerta",
+        "expected": [
+          "muerta_dead_shot",
+          "muerta_the_calling",
+          "muerta_gunslinger",
+          "muerta_spectral_slug",
+          "muerta_pierce_the_veil",
+          "muerta_supernatural"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=138",
+        "indexedSlots": 6,
+        "expectedSlots": 6,
+        "verifiedIcons": 6,
+        "missingIcons": []
+      },
+      {
+        "id": "ringmaster",
+        "name": "百戏大王",
+        "en": "Ringmaster",
+        "expected": [
+          "ringmaster_tame_the_beasts",
+          "ringmaster_the_box",
+          "ringmaster_impalement",
+          "ringmaster_spotlight",
+          "ringmaster_wheel",
+          "ringmaster_dark_carnival_souvenirs",
+          "ringmaster_funhouse_mirror",
+          "ringmaster_strongman_tonic",
+          "ringmaster_whoopee_cushion",
+          "ringmaster_summon_unicycle"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=131",
+        "indexedSlots": 10,
+        "expectedSlots": 10,
+        "verifiedIcons": 10,
+        "missingIcons": []
+      },
+      {
+        "id": "kez",
+        "name": "凯",
+        "en": "Kez",
+        "expected": [
+          "kez_echo_slash",
+          "kez_grappling_claw",
+          "kez_kazurai_katana",
+          "kez_switch_weapons",
+          "kez_raptor_dance",
+          "kez_falcon_rush",
+          "kez_talon_toss",
+          "kez_shodo_sai",
+          "kez_ravens_veil"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=145",
+        "indexedSlots": 9,
+        "expectedSlots": 9,
+        "verifiedIcons": 9,
+        "missingIcons": []
+      },
+      {
+        "id": "largo",
+        "name": "朗戈",
+        "en": "Largo",
+        "expected": [
+          "largo_catchy_lick",
+          "largo_frogstomp",
+          "largo_croak_of_genius",
+          "largo_encore",
+          "largo_amphibian_rhapsody",
+          "largo_song_fight_song",
+          "largo_song_double_time",
+          "largo_song_good_vibrations"
+        ],
+        "source": "https://www.dota2.com/datafeed/herodata?language=schinese&hero_id=155",
+        "indexedSlots": 8,
+        "expectedSlots": 8,
+        "verifiedIcons": 8,
+        "missingIcons": []
+      }
+    ],
+    "statusDefinitions": 1350,
+    "statusScope": "公开本地化modifier标题（中英资源并集）；含历史、隐藏和模式记录；不等于引擎全部运行时状态",
+    "heroesIndexed": 127,
+    "expectedSlots": 734,
+    "indexedSlots": 734,
+    "officialGenericIcons": 49,
+    "verifiedSkillIcons": 734,
+    "statusRecords": 1350,
+    "statusWithImages": 967,
+    "statusDeclaredImages": 9,
+    "statusRelatedImages": 958,
+    "statusAssetImages": 0,
+    "statusMissingImages": 383
+  },
+  "lol": {
+    "rosterTotal": 173,
+    "heroes": [
+      {
+        "id": "Aatrox",
+        "name": "暗裔剑魔",
+        "en": "Aatrox",
+        "expected": [
+          "lol-Aatrox-0",
+          "lol-Aatrox-1",
+          "lol-Aatrox-2",
+          "lol-Aatrox-3",
+          "lol-Aatrox-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Aatrox.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "亚托克斯"
+      },
+      {
+        "id": "Ahri",
+        "name": "九尾妖狐",
+        "en": "Ahri",
+        "expected": [
+          "lol-Ahri-0",
+          "lol-Ahri-1",
+          "lol-Ahri-2",
+          "lol-Ahri-3",
+          "lol-Ahri-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ahri.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿狸"
+      },
+      {
+        "id": "Akali",
+        "name": "离群之刺",
+        "en": "Akali",
+        "expected": [
+          "lol-Akali-0",
+          "lol-Akali-1",
+          "lol-Akali-2",
+          "lol-Akali-3",
+          "lol-Akali-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Akali.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿卡丽"
+      },
+      {
+        "id": "Akshan",
+        "name": "影哨",
+        "en": "Akshan",
+        "expected": [
+          "lol-Akshan-0",
+          "lol-Akshan-1",
+          "lol-Akshan-2",
+          "lol-Akshan-3",
+          "lol-Akshan-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Akshan.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿克尚"
+      },
+      {
+        "id": "Alistar",
+        "name": "牛头酋长",
+        "en": "Alistar",
+        "expected": [
+          "lol-Alistar-0",
+          "lol-Alistar-1",
+          "lol-Alistar-2",
+          "lol-Alistar-3",
+          "lol-Alistar-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Alistar.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿利斯塔"
+      },
+      {
+        "id": "Ambessa",
+        "name": "铁血狼母",
+        "en": "Ambessa",
+        "expected": [
+          "lol-Ambessa-0",
+          "lol-Ambessa-1",
+          "lol-Ambessa-2",
+          "lol-Ambessa-3",
+          "lol-Ambessa-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ambessa.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "安蓓萨"
+      },
+      {
+        "id": "Amumu",
+        "name": "殇之木乃伊",
+        "en": "Amumu",
+        "expected": [
+          "lol-Amumu-0",
+          "lol-Amumu-1",
+          "lol-Amumu-2",
+          "lol-Amumu-3",
+          "lol-Amumu-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Amumu.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿木木"
+      },
+      {
+        "id": "Anivia",
+        "name": "冰晶凤凰",
+        "en": "Anivia",
+        "expected": [
+          "lol-Anivia-0",
+          "lol-Anivia-1",
+          "lol-Anivia-2",
+          "lol-Anivia-3",
+          "lol-Anivia-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Anivia.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "艾尼维亚"
+      },
+      {
+        "id": "Annie",
+        "name": "黑暗之女",
+        "en": "Annie",
+        "expected": [
+          "lol-Annie-0",
+          "lol-Annie-1",
+          "lol-Annie-2",
+          "lol-Annie-3",
+          "lol-Annie-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Annie.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "安妮"
+      },
+      {
+        "id": "Aphelios",
+        "name": "残月之肃",
+        "en": "Aphelios",
+        "expected": [
+          "lol-Aphelios-0",
+          "lol-Aphelios-1",
+          "lol-Aphelios-2",
+          "lol-Aphelios-3",
+          "lol-Aphelios-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Aphelios.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "厄斐琉斯"
+      },
+      {
+        "id": "Ashe",
+        "name": "寒冰射手",
+        "en": "Ashe",
+        "expected": [
+          "lol-Ashe-0",
+          "lol-Ashe-1",
+          "lol-Ashe-2",
+          "lol-Ashe-3",
+          "lol-Ashe-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ashe.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "艾希"
+      },
+      {
+        "id": "AurelionSol",
+        "name": "铸星龙王",
+        "en": "AurelionSol",
+        "expected": [
+          "lol-AurelionSol-0",
+          "lol-AurelionSol-1",
+          "lol-AurelionSol-2",
+          "lol-AurelionSol-3",
+          "lol-AurelionSol-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/AurelionSol.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奥瑞利安·索尔"
+      },
+      {
+        "id": "Aurora",
+        "name": "双界灵兔",
+        "en": "Aurora",
+        "expected": [
+          "lol-Aurora-0",
+          "lol-Aurora-1",
+          "lol-Aurora-2",
+          "lol-Aurora-3",
+          "lol-Aurora-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Aurora.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿萝拉"
+      },
+      {
+        "id": "Azir",
+        "name": "沙漠皇帝",
+        "en": "Azir",
+        "expected": [
+          "lol-Azir-0",
+          "lol-Azir-1",
+          "lol-Azir-2",
+          "lol-Azir-3",
+          "lol-Azir-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Azir.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "阿兹尔"
+      },
+      {
+        "id": "Bard",
+        "name": "星界游神",
+        "en": "Bard",
+        "expected": [
+          "lol-Bard-0",
+          "lol-Bard-1",
+          "lol-Bard-2",
+          "lol-Bard-3",
+          "lol-Bard-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Bard.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "巴德"
+      },
+      {
+        "id": "Belveth",
+        "name": "虚空女皇",
+        "en": "Belveth",
+        "expected": [
+          "lol-Belveth-0",
+          "lol-Belveth-1",
+          "lol-Belveth-2",
+          "lol-Belveth-3",
+          "lol-Belveth-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Belveth.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卑尔维斯"
+      },
+      {
+        "id": "Blitzcrank",
+        "name": "蒸汽机器人",
+        "en": "Blitzcrank",
+        "expected": [
+          "lol-Blitzcrank-0",
+          "lol-Blitzcrank-1",
+          "lol-Blitzcrank-2",
+          "lol-Blitzcrank-3",
+          "lol-Blitzcrank-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Blitzcrank.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "布里茨"
+      },
+      {
+        "id": "Brand",
+        "name": "复仇焰魂",
+        "en": "Brand",
+        "expected": [
+          "lol-Brand-0",
+          "lol-Brand-1",
+          "lol-Brand-2",
+          "lol-Brand-3",
+          "lol-Brand-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Brand.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "布兰德"
+      },
+      {
+        "id": "Braum",
+        "name": "弗雷尔卓德之心",
+        "en": "Braum",
+        "expected": [
+          "lol-Braum-0",
+          "lol-Braum-1",
+          "lol-Braum-2",
+          "lol-Braum-3",
+          "lol-Braum-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Braum.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "布隆"
+      },
+      {
+        "id": "Briar",
+        "name": "狂厄蔷薇",
+        "en": "Briar",
+        "expected": [
+          "lol-Briar-0",
+          "lol-Briar-1",
+          "lol-Briar-2",
+          "lol-Briar-3",
+          "lol-Briar-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Briar.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "贝蕾亚"
+      },
+      {
+        "id": "Caitlyn",
+        "name": "皮城女警",
+        "en": "Caitlyn",
+        "expected": [
+          "lol-Caitlyn-0",
+          "lol-Caitlyn-1",
+          "lol-Caitlyn-2",
+          "lol-Caitlyn-3",
+          "lol-Caitlyn-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Caitlyn.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "凯特琳"
+      },
+      {
+        "id": "Camille",
+        "name": "青钢影",
+        "en": "Camille",
+        "expected": [
+          "lol-Camille-0",
+          "lol-Camille-1",
+          "lol-Camille-2",
+          "lol-Camille-3",
+          "lol-Camille-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Camille.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡蜜尔"
+      },
+      {
+        "id": "Cassiopeia",
+        "name": "魔蛇之拥",
+        "en": "Cassiopeia",
+        "expected": [
+          "lol-Cassiopeia-0",
+          "lol-Cassiopeia-1",
+          "lol-Cassiopeia-2",
+          "lol-Cassiopeia-3",
+          "lol-Cassiopeia-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Cassiopeia.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡西奥佩娅"
+      },
+      {
+        "id": "Chogath",
+        "name": "虚空恐惧",
+        "en": "Chogath",
+        "expected": [
+          "lol-Chogath-0",
+          "lol-Chogath-1",
+          "lol-Chogath-2",
+          "lol-Chogath-3",
+          "lol-Chogath-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Chogath.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "科加斯"
+      },
+      {
+        "id": "Corki",
+        "name": "英勇投弹手",
+        "en": "Corki",
+        "expected": [
+          "lol-Corki-0",
+          "lol-Corki-1",
+          "lol-Corki-2",
+          "lol-Corki-3",
+          "lol-Corki-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Corki.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "库奇"
+      },
+      {
+        "id": "Darius",
+        "name": "诺克萨斯之手",
+        "en": "Darius",
+        "expected": [
+          "lol-Darius-0",
+          "lol-Darius-1",
+          "lol-Darius-2",
+          "lol-Darius-3",
+          "lol-Darius-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Darius.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "德莱厄斯"
+      },
+      {
+        "id": "Diana",
+        "name": "皎月女神",
+        "en": "Diana",
+        "expected": [
+          "lol-Diana-0",
+          "lol-Diana-1",
+          "lol-Diana-2",
+          "lol-Diana-3",
+          "lol-Diana-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Diana.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "黛安娜"
+      },
+      {
+        "id": "Draven",
+        "name": "荣耀行刑官",
+        "en": "Draven",
+        "expected": [
+          "lol-Draven-0",
+          "lol-Draven-1",
+          "lol-Draven-2",
+          "lol-Draven-3",
+          "lol-Draven-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Draven.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "德莱文"
+      },
+      {
+        "id": "DrMundo",
+        "name": "祖安狂人",
+        "en": "DrMundo",
+        "expected": [
+          "lol-DrMundo-0",
+          "lol-DrMundo-1",
+          "lol-DrMundo-2",
+          "lol-DrMundo-3",
+          "lol-DrMundo-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/DrMundo.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "蒙多医生"
+      },
+      {
+        "id": "Ekko",
+        "name": "时间刺客",
+        "en": "Ekko",
+        "expected": [
+          "lol-Ekko-0",
+          "lol-Ekko-1",
+          "lol-Ekko-2",
+          "lol-Ekko-3",
+          "lol-Ekko-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ekko.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "艾克"
+      },
+      {
+        "id": "Elise",
+        "name": "蜘蛛女皇",
+        "en": "Elise",
+        "expected": [
+          "lol-Elise-0",
+          "lol-Elise-1",
+          "lol-Elise-2",
+          "lol-Elise-3",
+          "lol-Elise-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Elise.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "伊莉丝"
+      },
+      {
+        "id": "Evelynn",
+        "name": "痛苦之拥",
+        "en": "Evelynn",
+        "expected": [
+          "lol-Evelynn-0",
+          "lol-Evelynn-1",
+          "lol-Evelynn-2",
+          "lol-Evelynn-3",
+          "lol-Evelynn-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Evelynn.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "伊芙琳"
+      },
+      {
+        "id": "Ezreal",
+        "name": "探险家",
+        "en": "Ezreal",
+        "expected": [
+          "lol-Ezreal-0",
+          "lol-Ezreal-1",
+          "lol-Ezreal-2",
+          "lol-Ezreal-3",
+          "lol-Ezreal-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ezreal.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "伊泽瑞尔"
+      },
+      {
+        "id": "Fiddlesticks",
+        "name": "远古恐惧",
+        "en": "Fiddlesticks",
+        "expected": [
+          "lol-Fiddlesticks-0",
+          "lol-Fiddlesticks-1",
+          "lol-Fiddlesticks-2",
+          "lol-Fiddlesticks-3",
+          "lol-Fiddlesticks-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Fiddlesticks.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "费德提克"
+      },
+      {
+        "id": "Fiora",
+        "name": "无双剑姬",
+        "en": "Fiora",
+        "expected": [
+          "lol-Fiora-0",
+          "lol-Fiora-1",
+          "lol-Fiora-2",
+          "lol-Fiora-3",
+          "lol-Fiora-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Fiora.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "菲奥娜"
+      },
+      {
+        "id": "Fizz",
+        "name": "潮汐海灵",
+        "en": "Fizz",
+        "expected": [
+          "lol-Fizz-0",
+          "lol-Fizz-1",
+          "lol-Fizz-2",
+          "lol-Fizz-3",
+          "lol-Fizz-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Fizz.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "菲兹"
+      },
+      {
+        "id": "Galio",
+        "name": "正义巨像",
+        "en": "Galio",
+        "expected": [
+          "lol-Galio-0",
+          "lol-Galio-1",
+          "lol-Galio-2",
+          "lol-Galio-3",
+          "lol-Galio-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Galio.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "加里奥"
+      },
+      {
+        "id": "Gangplank",
+        "name": "海洋之灾",
+        "en": "Gangplank",
+        "expected": [
+          "lol-Gangplank-0",
+          "lol-Gangplank-1",
+          "lol-Gangplank-2",
+          "lol-Gangplank-3",
+          "lol-Gangplank-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Gangplank.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "普朗克"
+      },
+      {
+        "id": "Garen",
+        "name": "德玛西亚之力",
+        "en": "Garen",
+        "expected": [
+          "lol-Garen-0",
+          "lol-Garen-1",
+          "lol-Garen-2",
+          "lol-Garen-3",
+          "lol-Garen-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Garen.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "盖伦"
+      },
+      {
+        "id": "Gnar",
+        "name": "迷失之牙",
+        "en": "Gnar",
+        "expected": [
+          "lol-Gnar-0",
+          "lol-Gnar-1",
+          "lol-Gnar-2",
+          "lol-Gnar-3",
+          "lol-Gnar-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Gnar.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "纳尔"
+      },
+      {
+        "id": "Gragas",
+        "name": "酒桶",
+        "en": "Gragas",
+        "expected": [
+          "lol-Gragas-0",
+          "lol-Gragas-1",
+          "lol-Gragas-2",
+          "lol-Gragas-3",
+          "lol-Gragas-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Gragas.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "古拉加斯"
+      },
+      {
+        "id": "Graves",
+        "name": "法外狂徒",
+        "en": "Graves",
+        "expected": [
+          "lol-Graves-0",
+          "lol-Graves-1",
+          "lol-Graves-2",
+          "lol-Graves-3",
+          "lol-Graves-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Graves.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "格雷福斯"
+      },
+      {
+        "id": "Gwen",
+        "name": "灵罗娃娃",
+        "en": "Gwen",
+        "expected": [
+          "lol-Gwen-0",
+          "lol-Gwen-1",
+          "lol-Gwen-2",
+          "lol-Gwen-3",
+          "lol-Gwen-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Gwen.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "格温"
+      },
+      {
+        "id": "Hecarim",
+        "name": "战争之影",
+        "en": "Hecarim",
+        "expected": [
+          "lol-Hecarim-0",
+          "lol-Hecarim-1",
+          "lol-Hecarim-2",
+          "lol-Hecarim-3",
+          "lol-Hecarim-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Hecarim.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "赫卡里姆"
+      },
+      {
+        "id": "Heimerdinger",
+        "name": "大发明家",
+        "en": "Heimerdinger",
+        "expected": [
+          "lol-Heimerdinger-0",
+          "lol-Heimerdinger-1",
+          "lol-Heimerdinger-2",
+          "lol-Heimerdinger-3",
+          "lol-Heimerdinger-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Heimerdinger.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "黑默丁格"
+      },
+      {
+        "id": "Hwei",
+        "name": "异画师",
+        "en": "Hwei",
+        "expected": [
+          "lol-Hwei-0",
+          "lol-Hwei-1",
+          "lol-Hwei-2",
+          "lol-Hwei-3",
+          "lol-Hwei-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Hwei.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "彗"
+      },
+      {
+        "id": "Illaoi",
+        "name": "海兽祭司",
+        "en": "Illaoi",
+        "expected": [
+          "lol-Illaoi-0",
+          "lol-Illaoi-1",
+          "lol-Illaoi-2",
+          "lol-Illaoi-3",
+          "lol-Illaoi-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Illaoi.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "俄洛伊"
+      },
+      {
+        "id": "Irelia",
+        "name": "刀锋舞者",
+        "en": "Irelia",
+        "expected": [
+          "lol-Irelia-0",
+          "lol-Irelia-1",
+          "lol-Irelia-2",
+          "lol-Irelia-3",
+          "lol-Irelia-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Irelia.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "艾瑞莉娅"
+      },
+      {
+        "id": "Ivern",
+        "name": "翠神",
+        "en": "Ivern",
+        "expected": [
+          "lol-Ivern-0",
+          "lol-Ivern-1",
+          "lol-Ivern-2",
+          "lol-Ivern-3",
+          "lol-Ivern-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ivern.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "艾翁"
+      },
+      {
+        "id": "Janna",
+        "name": "风暴之怒",
+        "en": "Janna",
+        "expected": [
+          "lol-Janna-0",
+          "lol-Janna-1",
+          "lol-Janna-2",
+          "lol-Janna-3",
+          "lol-Janna-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Janna.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "迦娜"
+      },
+      {
+        "id": "JarvanIV",
+        "name": "德玛西亚皇子",
+        "en": "JarvanIV",
+        "expected": [
+          "lol-JarvanIV-0",
+          "lol-JarvanIV-1",
+          "lol-JarvanIV-2",
+          "lol-JarvanIV-3",
+          "lol-JarvanIV-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/JarvanIV.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "嘉文四世"
+      },
+      {
+        "id": "Jax",
+        "name": "武器大师",
+        "en": "Jax",
+        "expected": [
+          "lol-Jax-0",
+          "lol-Jax-1",
+          "lol-Jax-2",
+          "lol-Jax-3",
+          "lol-Jax-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Jax.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "贾克斯"
+      },
+      {
+        "id": "Jayce",
+        "name": "未来守护者",
+        "en": "Jayce",
+        "expected": [
+          "lol-Jayce-0",
+          "lol-Jayce-1",
+          "lol-Jayce-2",
+          "lol-Jayce-3",
+          "lol-Jayce-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Jayce.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "杰斯"
+      },
+      {
+        "id": "Jhin",
+        "name": "戏命师",
+        "en": "Jhin",
+        "expected": [
+          "lol-Jhin-0",
+          "lol-Jhin-1",
+          "lol-Jhin-2",
+          "lol-Jhin-3",
+          "lol-Jhin-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Jhin.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "烬"
+      },
+      {
+        "id": "Jinx",
+        "name": "暴走萝莉",
+        "en": "Jinx",
+        "expected": [
+          "lol-Jinx-0",
+          "lol-Jinx-1",
+          "lol-Jinx-2",
+          "lol-Jinx-3",
+          "lol-Jinx-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Jinx.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "金克丝"
+      },
+      {
+        "id": "Kaisa",
+        "name": "虚空之女",
+        "en": "Kaisa",
+        "expected": [
+          "lol-Kaisa-0",
+          "lol-Kaisa-1",
+          "lol-Kaisa-2",
+          "lol-Kaisa-3",
+          "lol-Kaisa-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kaisa.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡莎"
+      },
+      {
+        "id": "Kalista",
+        "name": "复仇之矛",
+        "en": "Kalista",
+        "expected": [
+          "lol-Kalista-0",
+          "lol-Kalista-1",
+          "lol-Kalista-2",
+          "lol-Kalista-3",
+          "lol-Kalista-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kalista.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡莉丝塔"
+      },
+      {
+        "id": "Karma",
+        "name": "天启者",
+        "en": "Karma",
+        "expected": [
+          "lol-Karma-0",
+          "lol-Karma-1",
+          "lol-Karma-2",
+          "lol-Karma-3",
+          "lol-Karma-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Karma.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡尔玛"
+      },
+      {
+        "id": "Karthus",
+        "name": "死亡颂唱者",
+        "en": "Karthus",
+        "expected": [
+          "lol-Karthus-0",
+          "lol-Karthus-1",
+          "lol-Karthus-2",
+          "lol-Karthus-3",
+          "lol-Karthus-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Karthus.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡尔萨斯"
+      },
+      {
+        "id": "Kassadin",
+        "name": "虚空行者",
+        "en": "Kassadin",
+        "expected": [
+          "lol-Kassadin-0",
+          "lol-Kassadin-1",
+          "lol-Kassadin-2",
+          "lol-Kassadin-3",
+          "lol-Kassadin-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kassadin.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡萨丁"
+      },
+      {
+        "id": "Katarina",
+        "name": "不祥之刃",
+        "en": "Katarina",
+        "expected": [
+          "lol-Katarina-0",
+          "lol-Katarina-1",
+          "lol-Katarina-2",
+          "lol-Katarina-3",
+          "lol-Katarina-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Katarina.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡特琳娜"
+      },
+      {
+        "id": "Kayle",
+        "name": "正义天使",
+        "en": "Kayle",
+        "expected": [
+          "lol-Kayle-0",
+          "lol-Kayle-1",
+          "lol-Kayle-2",
+          "lol-Kayle-3",
+          "lol-Kayle-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kayle.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "凯尔"
+      },
+      {
+        "id": "Kayn",
+        "name": "影流之镰",
+        "en": "Kayn",
+        "expected": [
+          "lol-Kayn-0",
+          "lol-Kayn-1",
+          "lol-Kayn-2",
+          "lol-Kayn-3",
+          "lol-Kayn-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kayn.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "凯隐"
+      },
+      {
+        "id": "Kennen",
+        "name": "狂暴之心",
+        "en": "Kennen",
+        "expected": [
+          "lol-Kennen-0",
+          "lol-Kennen-1",
+          "lol-Kennen-2",
+          "lol-Kennen-3",
+          "lol-Kennen-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kennen.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "凯南"
+      },
+      {
+        "id": "Khazix",
+        "name": "虚空掠夺者",
+        "en": "Khazix",
+        "expected": [
+          "lol-Khazix-0",
+          "lol-Khazix-1",
+          "lol-Khazix-2",
+          "lol-Khazix-3",
+          "lol-Khazix-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Khazix.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卡兹克"
+      },
+      {
+        "id": "Kindred",
+        "name": "永猎双子",
+        "en": "Kindred",
+        "expected": [
+          "lol-Kindred-0",
+          "lol-Kindred-1",
+          "lol-Kindred-2",
+          "lol-Kindred-3",
+          "lol-Kindred-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kindred.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "千珏"
+      },
+      {
+        "id": "Kled",
+        "name": "暴怒骑士",
+        "en": "Kled",
+        "expected": [
+          "lol-Kled-0",
+          "lol-Kled-1",
+          "lol-Kled-2",
+          "lol-Kled-3",
+          "lol-Kled-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Kled.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "克烈"
+      },
+      {
+        "id": "KogMaw",
+        "name": "深渊巨口",
+        "en": "KogMaw",
+        "expected": [
+          "lol-KogMaw-0",
+          "lol-KogMaw-1",
+          "lol-KogMaw-2",
+          "lol-KogMaw-3",
+          "lol-KogMaw-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/KogMaw.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "克格莫"
+      },
+      {
+        "id": "KSante",
+        "name": "纳祖芒荣耀",
+        "en": "KSante",
+        "expected": [
+          "lol-KSante-0",
+          "lol-KSante-1",
+          "lol-KSante-2",
+          "lol-KSante-3",
+          "lol-KSante-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/KSante.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奎桑提"
+      },
+      {
+        "id": "Leblanc",
+        "name": "诡术妖姬",
+        "en": "Leblanc",
+        "expected": [
+          "lol-Leblanc-0",
+          "lol-Leblanc-1",
+          "lol-Leblanc-2",
+          "lol-Leblanc-3",
+          "lol-Leblanc-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Leblanc.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "乐芙兰"
+      },
+      {
+        "id": "LeeSin",
+        "name": "盲僧",
+        "en": "LeeSin",
+        "expected": [
+          "lol-LeeSin-0",
+          "lol-LeeSin-1",
+          "lol-LeeSin-2",
+          "lol-LeeSin-3",
+          "lol-LeeSin-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/LeeSin.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "李青"
+      },
+      {
+        "id": "Leona",
+        "name": "曙光女神",
+        "en": "Leona",
+        "expected": [
+          "lol-Leona-0",
+          "lol-Leona-1",
+          "lol-Leona-2",
+          "lol-Leona-3",
+          "lol-Leona-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Leona.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "蕾欧娜"
+      },
+      {
+        "id": "Lillia",
+        "name": "含羞蓓蕾",
+        "en": "Lillia",
+        "expected": [
+          "lol-Lillia-0",
+          "lol-Lillia-1",
+          "lol-Lillia-2",
+          "lol-Lillia-3",
+          "lol-Lillia-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Lillia.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "莉莉娅"
+      },
+      {
+        "id": "Lissandra",
+        "name": "冰霜女巫",
+        "en": "Lissandra",
+        "expected": [
+          "lol-Lissandra-0",
+          "lol-Lissandra-1",
+          "lol-Lissandra-2",
+          "lol-Lissandra-3",
+          "lol-Lissandra-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Lissandra.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "丽桑卓"
+      },
+      {
+        "id": "Locke",
+        "name": "灰烬驱魔人",
+        "en": "Locke",
+        "expected": [
+          "lol-Locke-0",
+          "lol-Locke-1",
+          "lol-Locke-2",
+          "lol-Locke-3",
+          "lol-Locke-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Locke.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "洛克"
+      },
+      {
+        "id": "Lucian",
+        "name": "圣枪游侠",
+        "en": "Lucian",
+        "expected": [
+          "lol-Lucian-0",
+          "lol-Lucian-1",
+          "lol-Lucian-2",
+          "lol-Lucian-3",
+          "lol-Lucian-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Lucian.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "卢锡安"
+      },
+      {
+        "id": "Lulu",
+        "name": "仙灵女巫",
+        "en": "Lulu",
+        "expected": [
+          "lol-Lulu-0",
+          "lol-Lulu-1",
+          "lol-Lulu-2",
+          "lol-Lulu-3",
+          "lol-Lulu-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Lulu.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "璐璐"
+      },
+      {
+        "id": "Lux",
+        "name": "光辉女郎",
+        "en": "Lux",
+        "expected": [
+          "lol-Lux-0",
+          "lol-Lux-1",
+          "lol-Lux-2",
+          "lol-Lux-3",
+          "lol-Lux-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Lux.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "拉克丝"
+      },
+      {
+        "id": "Malphite",
+        "name": "熔岩巨兽",
+        "en": "Malphite",
+        "expected": [
+          "lol-Malphite-0",
+          "lol-Malphite-1",
+          "lol-Malphite-2",
+          "lol-Malphite-3",
+          "lol-Malphite-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Malphite.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "墨菲特"
+      },
+      {
+        "id": "Malzahar",
+        "name": "虚空先知",
+        "en": "Malzahar",
+        "expected": [
+          "lol-Malzahar-0",
+          "lol-Malzahar-1",
+          "lol-Malzahar-2",
+          "lol-Malzahar-3",
+          "lol-Malzahar-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Malzahar.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "玛尔扎哈"
+      },
+      {
+        "id": "Maokai",
+        "name": "扭曲树精",
+        "en": "Maokai",
+        "expected": [
+          "lol-Maokai-0",
+          "lol-Maokai-1",
+          "lol-Maokai-2",
+          "lol-Maokai-3",
+          "lol-Maokai-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Maokai.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "茂凯"
+      },
+      {
+        "id": "MasterYi",
+        "name": "无极剑圣",
+        "en": "MasterYi",
+        "expected": [
+          "lol-MasterYi-0",
+          "lol-MasterYi-1",
+          "lol-MasterYi-2",
+          "lol-MasterYi-3",
+          "lol-MasterYi-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/MasterYi.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "易"
+      },
+      {
+        "id": "Mel",
+        "name": "流光镜影",
+        "en": "Mel",
+        "expected": [
+          "lol-Mel-0",
+          "lol-Mel-1",
+          "lol-Mel-2",
+          "lol-Mel-3",
+          "lol-Mel-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Mel.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "梅尔"
+      },
+      {
+        "id": "Milio",
+        "name": "明烛",
+        "en": "Milio",
+        "expected": [
+          "lol-Milio-0",
+          "lol-Milio-1",
+          "lol-Milio-2",
+          "lol-Milio-3",
+          "lol-Milio-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Milio.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "米利欧"
+      },
+      {
+        "id": "MissFortune",
+        "name": "赏金猎人",
+        "en": "MissFortune",
+        "expected": [
+          "lol-MissFortune-0",
+          "lol-MissFortune-1",
+          "lol-MissFortune-2",
+          "lol-MissFortune-3",
+          "lol-MissFortune-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/MissFortune.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "厄运小姐"
+      },
+      {
+        "id": "MonkeyKing",
+        "name": "齐天大圣",
+        "en": "MonkeyKing",
+        "expected": [
+          "lol-MonkeyKing-0",
+          "lol-MonkeyKing-1",
+          "lol-MonkeyKing-2",
+          "lol-MonkeyKing-3",
+          "lol-MonkeyKing-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/MonkeyKing.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "孙悟空"
+      },
+      {
+        "id": "Mordekaiser",
+        "name": "铁铠冥魂",
+        "en": "Mordekaiser",
+        "expected": [
+          "lol-Mordekaiser-0",
+          "lol-Mordekaiser-1",
+          "lol-Mordekaiser-2",
+          "lol-Mordekaiser-3",
+          "lol-Mordekaiser-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Mordekaiser.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "莫德凯撒"
+      },
+      {
+        "id": "Morgana",
+        "name": "堕落天使",
+        "en": "Morgana",
+        "expected": [
+          "lol-Morgana-0",
+          "lol-Morgana-1",
+          "lol-Morgana-2",
+          "lol-Morgana-3",
+          "lol-Morgana-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Morgana.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "莫甘娜"
+      },
+      {
+        "id": "Naafiri",
+        "name": "百裂冥犬",
+        "en": "Naafiri",
+        "expected": [
+          "lol-Naafiri-0",
+          "lol-Naafiri-1",
+          "lol-Naafiri-2",
+          "lol-Naafiri-3",
+          "lol-Naafiri-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Naafiri.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "纳亚菲利"
+      },
+      {
+        "id": "Nami",
+        "name": "唤潮鲛姬",
+        "en": "Nami",
+        "expected": [
+          "lol-Nami-0",
+          "lol-Nami-1",
+          "lol-Nami-2",
+          "lol-Nami-3",
+          "lol-Nami-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nami.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "娜美"
+      },
+      {
+        "id": "Nasus",
+        "name": "沙漠死神",
+        "en": "Nasus",
+        "expected": [
+          "lol-Nasus-0",
+          "lol-Nasus-1",
+          "lol-Nasus-2",
+          "lol-Nasus-3",
+          "lol-Nasus-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nasus.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "内瑟斯"
+      },
+      {
+        "id": "Nautilus",
+        "name": "深海泰坦",
+        "en": "Nautilus",
+        "expected": [
+          "lol-Nautilus-0",
+          "lol-Nautilus-1",
+          "lol-Nautilus-2",
+          "lol-Nautilus-3",
+          "lol-Nautilus-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nautilus.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "诺提勒斯"
+      },
+      {
+        "id": "Neeko",
+        "name": "万花通灵",
+        "en": "Neeko",
+        "expected": [
+          "lol-Neeko-0",
+          "lol-Neeko-1",
+          "lol-Neeko-2",
+          "lol-Neeko-3",
+          "lol-Neeko-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Neeko.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "妮蔻"
+      },
+      {
+        "id": "Nidalee",
+        "name": "狂野女猎手",
+        "en": "Nidalee",
+        "expected": [
+          "lol-Nidalee-0",
+          "lol-Nidalee-1",
+          "lol-Nidalee-2",
+          "lol-Nidalee-3",
+          "lol-Nidalee-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nidalee.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奈德丽"
+      },
+      {
+        "id": "Nilah",
+        "name": "不羁之悦",
+        "en": "Nilah",
+        "expected": [
+          "lol-Nilah-0",
+          "lol-Nilah-1",
+          "lol-Nilah-2",
+          "lol-Nilah-3",
+          "lol-Nilah-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nilah.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "尼菈"
+      },
+      {
+        "id": "Nocturne",
+        "name": "永恒梦魇",
+        "en": "Nocturne",
+        "expected": [
+          "lol-Nocturne-0",
+          "lol-Nocturne-1",
+          "lol-Nocturne-2",
+          "lol-Nocturne-3",
+          "lol-Nocturne-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nocturne.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "魔腾"
+      },
+      {
+        "id": "Nunu",
+        "name": "雪原双子",
+        "en": "Nunu",
+        "expected": [
+          "lol-Nunu-0",
+          "lol-Nunu-1",
+          "lol-Nunu-2",
+          "lol-Nunu-3",
+          "lol-Nunu-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Nunu.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "努努和威朗普"
+      },
+      {
+        "id": "Olaf",
+        "name": "狂战士",
+        "en": "Olaf",
+        "expected": [
+          "lol-Olaf-0",
+          "lol-Olaf-1",
+          "lol-Olaf-2",
+          "lol-Olaf-3",
+          "lol-Olaf-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Olaf.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奥拉夫"
+      },
+      {
+        "id": "Orianna",
+        "name": "发条魔灵",
+        "en": "Orianna",
+        "expected": [
+          "lol-Orianna-0",
+          "lol-Orianna-1",
+          "lol-Orianna-2",
+          "lol-Orianna-3",
+          "lol-Orianna-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Orianna.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奥莉安娜"
+      },
+      {
+        "id": "Ornn",
+        "name": "山隐之焰",
+        "en": "Ornn",
+        "expected": [
+          "lol-Ornn-0",
+          "lol-Ornn-1",
+          "lol-Ornn-2",
+          "lol-Ornn-3",
+          "lol-Ornn-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ornn.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奥恩"
+      },
+      {
+        "id": "Pantheon",
+        "name": "不屈之枪",
+        "en": "Pantheon",
+        "expected": [
+          "lol-Pantheon-0",
+          "lol-Pantheon-1",
+          "lol-Pantheon-2",
+          "lol-Pantheon-3",
+          "lol-Pantheon-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Pantheon.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "潘森"
+      },
+      {
+        "id": "Poppy",
+        "name": "圣锤之毅",
+        "en": "Poppy",
+        "expected": [
+          "lol-Poppy-0",
+          "lol-Poppy-1",
+          "lol-Poppy-2",
+          "lol-Poppy-3",
+          "lol-Poppy-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Poppy.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "波比"
+      },
+      {
+        "id": "Pyke",
+        "name": "血港鬼影",
+        "en": "Pyke",
+        "expected": [
+          "lol-Pyke-0",
+          "lol-Pyke-1",
+          "lol-Pyke-2",
+          "lol-Pyke-3",
+          "lol-Pyke-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Pyke.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "派克"
+      },
+      {
+        "id": "Qiyana",
+        "name": "元素女皇",
+        "en": "Qiyana",
+        "expected": [
+          "lol-Qiyana-0",
+          "lol-Qiyana-1",
+          "lol-Qiyana-2",
+          "lol-Qiyana-3",
+          "lol-Qiyana-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Qiyana.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奇亚娜"
+      },
+      {
+        "id": "Quinn",
+        "name": "德玛西亚之翼",
+        "en": "Quinn",
+        "expected": [
+          "lol-Quinn-0",
+          "lol-Quinn-1",
+          "lol-Quinn-2",
+          "lol-Quinn-3",
+          "lol-Quinn-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Quinn.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "奎因"
+      },
+      {
+        "id": "Rakan",
+        "name": "幻翎",
+        "en": "Rakan",
+        "expected": [
+          "lol-Rakan-0",
+          "lol-Rakan-1",
+          "lol-Rakan-2",
+          "lol-Rakan-3",
+          "lol-Rakan-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Rakan.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "洛"
+      },
+      {
+        "id": "Rammus",
+        "name": "披甲龙龟",
+        "en": "Rammus",
+        "expected": [
+          "lol-Rammus-0",
+          "lol-Rammus-1",
+          "lol-Rammus-2",
+          "lol-Rammus-3",
+          "lol-Rammus-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Rammus.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "拉莫斯"
+      },
+      {
+        "id": "RekSai",
+        "name": "虚空遁地兽",
+        "en": "RekSai",
+        "expected": [
+          "lol-RekSai-0",
+          "lol-RekSai-1",
+          "lol-RekSai-2",
+          "lol-RekSai-3",
+          "lol-RekSai-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/RekSai.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "雷克塞"
+      },
+      {
+        "id": "Rell",
+        "name": "镕铁少女",
+        "en": "Rell",
+        "expected": [
+          "lol-Rell-0",
+          "lol-Rell-1",
+          "lol-Rell-2",
+          "lol-Rell-3",
+          "lol-Rell-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Rell.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "芮尔"
+      },
+      {
+        "id": "Renata",
+        "name": "炼金男爵",
+        "en": "Renata",
+        "expected": [
+          "lol-Renata-0",
+          "lol-Renata-1",
+          "lol-Renata-2",
+          "lol-Renata-3",
+          "lol-Renata-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Renata.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "烈娜塔 · 戈拉斯克"
+      },
+      {
+        "id": "Renekton",
+        "name": "荒漠屠夫",
+        "en": "Renekton",
+        "expected": [
+          "lol-Renekton-0",
+          "lol-Renekton-1",
+          "lol-Renekton-2",
+          "lol-Renekton-3",
+          "lol-Renekton-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Renekton.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "雷克顿"
+      },
+      {
+        "id": "Rengar",
+        "name": "傲之追猎者",
+        "en": "Rengar",
+        "expected": [
+          "lol-Rengar-0",
+          "lol-Rengar-1",
+          "lol-Rengar-2",
+          "lol-Rengar-3",
+          "lol-Rengar-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Rengar.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "雷恩加尔"
+      },
+      {
+        "id": "Riven",
+        "name": "放逐之刃",
+        "en": "Riven",
+        "expected": [
+          "lol-Riven-0",
+          "lol-Riven-1",
+          "lol-Riven-2",
+          "lol-Riven-3",
+          "lol-Riven-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Riven.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "锐雯"
+      },
+      {
+        "id": "Rumble",
+        "name": "机械公敌",
+        "en": "Rumble",
+        "expected": [
+          "lol-Rumble-0",
+          "lol-Rumble-1",
+          "lol-Rumble-2",
+          "lol-Rumble-3",
+          "lol-Rumble-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Rumble.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "兰博"
+      },
+      {
+        "id": "Ryze",
+        "name": "符文法师",
+        "en": "Ryze",
+        "expected": [
+          "lol-Ryze-0",
+          "lol-Ryze-1",
+          "lol-Ryze-2",
+          "lol-Ryze-3",
+          "lol-Ryze-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ryze.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "瑞兹"
+      },
+      {
+        "id": "Samira",
+        "name": "沙漠玫瑰",
+        "en": "Samira",
+        "expected": [
+          "lol-Samira-0",
+          "lol-Samira-1",
+          "lol-Samira-2",
+          "lol-Samira-3",
+          "lol-Samira-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Samira.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "莎弥拉"
+      },
+      {
+        "id": "Sejuani",
+        "name": "北地之怒",
+        "en": "Sejuani",
+        "expected": [
+          "lol-Sejuani-0",
+          "lol-Sejuani-1",
+          "lol-Sejuani-2",
+          "lol-Sejuani-3",
+          "lol-Sejuani-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Sejuani.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "瑟庄妮"
+      },
+      {
+        "id": "Senna",
+        "name": "涤魂圣枪",
+        "en": "Senna",
+        "expected": [
+          "lol-Senna-0",
+          "lol-Senna-1",
+          "lol-Senna-2",
+          "lol-Senna-3",
+          "lol-Senna-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Senna.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "赛娜"
+      },
+      {
+        "id": "Seraphine",
+        "name": "星籁歌姬",
+        "en": "Seraphine",
+        "expected": [
+          "lol-Seraphine-0",
+          "lol-Seraphine-1",
+          "lol-Seraphine-2",
+          "lol-Seraphine-3",
+          "lol-Seraphine-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Seraphine.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "萨勒芬妮"
+      },
+      {
+        "id": "Sett",
+        "name": "腕豪",
+        "en": "Sett",
+        "expected": [
+          "lol-Sett-0",
+          "lol-Sett-1",
+          "lol-Sett-2",
+          "lol-Sett-3",
+          "lol-Sett-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Sett.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "瑟提"
+      },
+      {
+        "id": "Shaco",
+        "name": "恶魔小丑",
+        "en": "Shaco",
+        "expected": [
+          "lol-Shaco-0",
+          "lol-Shaco-1",
+          "lol-Shaco-2",
+          "lol-Shaco-3",
+          "lol-Shaco-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Shaco.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "萨科"
+      },
+      {
+        "id": "Shen",
+        "name": "暮光之眼",
+        "en": "Shen",
+        "expected": [
+          "lol-Shen-0",
+          "lol-Shen-1",
+          "lol-Shen-2",
+          "lol-Shen-3",
+          "lol-Shen-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Shen.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "慎"
+      },
+      {
+        "id": "Shyvana",
+        "name": "龙血武姬",
+        "en": "Shyvana",
+        "expected": [
+          "lol-Shyvana-0",
+          "lol-Shyvana-1",
+          "lol-Shyvana-2",
+          "lol-Shyvana-3",
+          "lol-Shyvana-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Shyvana.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "希瓦娜"
+      },
+      {
+        "id": "Singed",
+        "name": "炼金术士",
+        "en": "Singed",
+        "expected": [
+          "lol-Singed-0",
+          "lol-Singed-1",
+          "lol-Singed-2",
+          "lol-Singed-3",
+          "lol-Singed-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Singed.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "辛吉德"
+      },
+      {
+        "id": "Sion",
+        "name": "亡灵战神",
+        "en": "Sion",
+        "expected": [
+          "lol-Sion-0",
+          "lol-Sion-1",
+          "lol-Sion-2",
+          "lol-Sion-3",
+          "lol-Sion-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Sion.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "赛恩"
+      },
+      {
+        "id": "Sivir",
+        "name": "战争女神",
+        "en": "Sivir",
+        "expected": [
+          "lol-Sivir-0",
+          "lol-Sivir-1",
+          "lol-Sivir-2",
+          "lol-Sivir-3",
+          "lol-Sivir-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Sivir.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "希维尔"
+      },
+      {
+        "id": "Skarner",
+        "name": "上古领主",
+        "en": "Skarner",
+        "expected": [
+          "lol-Skarner-0",
+          "lol-Skarner-1",
+          "lol-Skarner-2",
+          "lol-Skarner-3",
+          "lol-Skarner-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Skarner.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "斯卡纳"
+      },
+      {
+        "id": "Smolder",
+        "name": "炽炎雏龙",
+        "en": "Smolder",
+        "expected": [
+          "lol-Smolder-0",
+          "lol-Smolder-1",
+          "lol-Smolder-2",
+          "lol-Smolder-3",
+          "lol-Smolder-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Smolder.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "斯莫德"
+      },
+      {
+        "id": "Sona",
+        "name": "琴瑟仙女",
+        "en": "Sona",
+        "expected": [
+          "lol-Sona-0",
+          "lol-Sona-1",
+          "lol-Sona-2",
+          "lol-Sona-3",
+          "lol-Sona-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Sona.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "娑娜"
+      },
+      {
+        "id": "Soraka",
+        "name": "众星之子",
+        "en": "Soraka",
+        "expected": [
+          "lol-Soraka-0",
+          "lol-Soraka-1",
+          "lol-Soraka-2",
+          "lol-Soraka-3",
+          "lol-Soraka-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Soraka.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "索拉卡"
+      },
+      {
+        "id": "Swain",
+        "name": "诺克萨斯统领",
+        "en": "Swain",
+        "expected": [
+          "lol-Swain-0",
+          "lol-Swain-1",
+          "lol-Swain-2",
+          "lol-Swain-3",
+          "lol-Swain-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Swain.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "斯维因"
+      },
+      {
+        "id": "Sylas",
+        "name": "解脱者",
+        "en": "Sylas",
+        "expected": [
+          "lol-Sylas-0",
+          "lol-Sylas-1",
+          "lol-Sylas-2",
+          "lol-Sylas-3",
+          "lol-Sylas-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Sylas.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "塞拉斯"
+      },
+      {
+        "id": "Syndra",
+        "name": "暗黑元首",
+        "en": "Syndra",
+        "expected": [
+          "lol-Syndra-0",
+          "lol-Syndra-1",
+          "lol-Syndra-2",
+          "lol-Syndra-3",
+          "lol-Syndra-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Syndra.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "辛德拉"
+      },
+      {
+        "id": "TahmKench",
+        "name": "河流之王",
+        "en": "TahmKench",
+        "expected": [
+          "lol-TahmKench-0",
+          "lol-TahmKench-1",
+          "lol-TahmKench-2",
+          "lol-TahmKench-3",
+          "lol-TahmKench-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/TahmKench.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "塔姆"
+      },
+      {
+        "id": "Taliyah",
+        "name": "岩雀",
+        "en": "Taliyah",
+        "expected": [
+          "lol-Taliyah-0",
+          "lol-Taliyah-1",
+          "lol-Taliyah-2",
+          "lol-Taliyah-3",
+          "lol-Taliyah-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Taliyah.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "塔莉垭"
+      },
+      {
+        "id": "Talon",
+        "name": "刀锋之影",
+        "en": "Talon",
+        "expected": [
+          "lol-Talon-0",
+          "lol-Talon-1",
+          "lol-Talon-2",
+          "lol-Talon-3",
+          "lol-Talon-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Talon.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "泰隆"
+      },
+      {
+        "id": "Taric",
+        "name": "瓦洛兰之盾",
+        "en": "Taric",
+        "expected": [
+          "lol-Taric-0",
+          "lol-Taric-1",
+          "lol-Taric-2",
+          "lol-Taric-3",
+          "lol-Taric-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Taric.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "塔里克"
+      },
+      {
+        "id": "Teemo",
+        "name": "迅捷斥候",
+        "en": "Teemo",
+        "expected": [
+          "lol-Teemo-0",
+          "lol-Teemo-1",
+          "lol-Teemo-2",
+          "lol-Teemo-3",
+          "lol-Teemo-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Teemo.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "提莫"
+      },
+      {
+        "id": "Thresh",
+        "name": "魂锁典狱长",
+        "en": "Thresh",
+        "expected": [
+          "lol-Thresh-0",
+          "lol-Thresh-1",
+          "lol-Thresh-2",
+          "lol-Thresh-3",
+          "lol-Thresh-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Thresh.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "锤石"
+      },
+      {
+        "id": "Tristana",
+        "name": "麦林炮手",
+        "en": "Tristana",
+        "expected": [
+          "lol-Tristana-0",
+          "lol-Tristana-1",
+          "lol-Tristana-2",
+          "lol-Tristana-3",
+          "lol-Tristana-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Tristana.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "崔丝塔娜"
+      },
+      {
+        "id": "Trundle",
+        "name": "巨魔之王",
+        "en": "Trundle",
+        "expected": [
+          "lol-Trundle-0",
+          "lol-Trundle-1",
+          "lol-Trundle-2",
+          "lol-Trundle-3",
+          "lol-Trundle-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Trundle.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "特朗德尔"
+      },
+      {
+        "id": "Tryndamere",
+        "name": "蛮族之王",
+        "en": "Tryndamere",
+        "expected": [
+          "lol-Tryndamere-0",
+          "lol-Tryndamere-1",
+          "lol-Tryndamere-2",
+          "lol-Tryndamere-3",
+          "lol-Tryndamere-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Tryndamere.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "泰达米尔"
+      },
+      {
+        "id": "TwistedFate",
+        "name": "卡牌大师",
+        "en": "TwistedFate",
+        "expected": [
+          "lol-TwistedFate-0",
+          "lol-TwistedFate-1",
+          "lol-TwistedFate-2",
+          "lol-TwistedFate-3",
+          "lol-TwistedFate-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/TwistedFate.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "崔斯特"
+      },
+      {
+        "id": "Twitch",
+        "name": "瘟疫之源",
+        "en": "Twitch",
+        "expected": [
+          "lol-Twitch-0",
+          "lol-Twitch-1",
+          "lol-Twitch-2",
+          "lol-Twitch-3",
+          "lol-Twitch-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Twitch.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "图奇"
+      },
+      {
+        "id": "Udyr",
+        "name": "兽灵行者",
+        "en": "Udyr",
+        "expected": [
+          "lol-Udyr-0",
+          "lol-Udyr-1",
+          "lol-Udyr-2",
+          "lol-Udyr-3",
+          "lol-Udyr-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Udyr.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "乌迪尔"
+      },
+      {
+        "id": "Urgot",
+        "name": "无畏战车",
+        "en": "Urgot",
+        "expected": [
+          "lol-Urgot-0",
+          "lol-Urgot-1",
+          "lol-Urgot-2",
+          "lol-Urgot-3",
+          "lol-Urgot-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Urgot.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "厄加特"
+      },
+      {
+        "id": "Varus",
+        "name": "惩戒之箭",
+        "en": "Varus",
+        "expected": [
+          "lol-Varus-0",
+          "lol-Varus-1",
+          "lol-Varus-2",
+          "lol-Varus-3",
+          "lol-Varus-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Varus.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "韦鲁斯"
+      },
+      {
+        "id": "Vayne",
+        "name": "暗夜猎手",
+        "en": "Vayne",
+        "expected": [
+          "lol-Vayne-0",
+          "lol-Vayne-1",
+          "lol-Vayne-2",
+          "lol-Vayne-3",
+          "lol-Vayne-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Vayne.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "薇恩"
+      },
+      {
+        "id": "Veigar",
+        "name": "邪恶小法师",
+        "en": "Veigar",
+        "expected": [
+          "lol-Veigar-0",
+          "lol-Veigar-1",
+          "lol-Veigar-2",
+          "lol-Veigar-3",
+          "lol-Veigar-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Veigar.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "维迦"
+      },
+      {
+        "id": "Velkoz",
+        "name": "虚空之眼",
+        "en": "Velkoz",
+        "expected": [
+          "lol-Velkoz-0",
+          "lol-Velkoz-1",
+          "lol-Velkoz-2",
+          "lol-Velkoz-3",
+          "lol-Velkoz-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Velkoz.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "维克兹"
+      },
+      {
+        "id": "Vex",
+        "name": "愁云使者",
+        "en": "Vex",
+        "expected": [
+          "lol-Vex-0",
+          "lol-Vex-1",
+          "lol-Vex-2",
+          "lol-Vex-3",
+          "lol-Vex-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Vex.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "薇古丝"
+      },
+      {
+        "id": "Vi",
+        "name": "皮城执法官",
+        "en": "Vi",
+        "expected": [
+          "lol-Vi-0",
+          "lol-Vi-1",
+          "lol-Vi-2",
+          "lol-Vi-3",
+          "lol-Vi-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Vi.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "蔚"
+      },
+      {
+        "id": "Viego",
+        "name": "破败之王",
+        "en": "Viego",
+        "expected": [
+          "lol-Viego-0",
+          "lol-Viego-1",
+          "lol-Viego-2",
+          "lol-Viego-3",
+          "lol-Viego-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Viego.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "佛耶戈"
+      },
+      {
+        "id": "Viktor",
+        "name": "奥术先驱",
+        "en": "Viktor",
+        "expected": [
+          "lol-Viktor-0",
+          "lol-Viktor-1",
+          "lol-Viktor-2",
+          "lol-Viktor-3",
+          "lol-Viktor-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Viktor.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "维克托"
+      },
+      {
+        "id": "Vladimir",
+        "name": "猩红收割者",
+        "en": "Vladimir",
+        "expected": [
+          "lol-Vladimir-0",
+          "lol-Vladimir-1",
+          "lol-Vladimir-2",
+          "lol-Vladimir-3",
+          "lol-Vladimir-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Vladimir.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "弗拉基米尔"
+      },
+      {
+        "id": "Volibear",
+        "name": "不灭狂雷",
+        "en": "Volibear",
+        "expected": [
+          "lol-Volibear-0",
+          "lol-Volibear-1",
+          "lol-Volibear-2",
+          "lol-Volibear-3",
+          "lol-Volibear-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Volibear.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "沃利贝尔"
+      },
+      {
+        "id": "Warwick",
+        "name": "祖安怒兽",
+        "en": "Warwick",
+        "expected": [
+          "lol-Warwick-0",
+          "lol-Warwick-1",
+          "lol-Warwick-2",
+          "lol-Warwick-3",
+          "lol-Warwick-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Warwick.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "沃里克"
+      },
+      {
+        "id": "Xayah",
+        "name": "逆羽",
+        "en": "Xayah",
+        "expected": [
+          "lol-Xayah-0",
+          "lol-Xayah-1",
+          "lol-Xayah-2",
+          "lol-Xayah-3",
+          "lol-Xayah-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Xayah.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "霞"
+      },
+      {
+        "id": "Xerath",
+        "name": "远古巫灵",
+        "en": "Xerath",
+        "expected": [
+          "lol-Xerath-0",
+          "lol-Xerath-1",
+          "lol-Xerath-2",
+          "lol-Xerath-3",
+          "lol-Xerath-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Xerath.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "泽拉斯"
+      },
+      {
+        "id": "XinZhao",
+        "name": "德邦总管",
+        "en": "XinZhao",
+        "expected": [
+          "lol-XinZhao-0",
+          "lol-XinZhao-1",
+          "lol-XinZhao-2",
+          "lol-XinZhao-3",
+          "lol-XinZhao-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/XinZhao.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "赵信"
+      },
+      {
+        "id": "Yasuo",
+        "name": "疾风剑豪",
+        "en": "Yasuo",
+        "expected": [
+          "lol-Yasuo-0",
+          "lol-Yasuo-1",
+          "lol-Yasuo-2",
+          "lol-Yasuo-3",
+          "lol-Yasuo-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Yasuo.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "亚索"
+      },
+      {
+        "id": "Yone",
+        "name": "封魔剑魂",
+        "en": "Yone",
+        "expected": [
+          "lol-Yone-0",
+          "lol-Yone-1",
+          "lol-Yone-2",
+          "lol-Yone-3",
+          "lol-Yone-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Yone.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "永恩"
+      },
+      {
+        "id": "Yorick",
+        "name": "牧魂人",
+        "en": "Yorick",
+        "expected": [
+          "lol-Yorick-0",
+          "lol-Yorick-1",
+          "lol-Yorick-2",
+          "lol-Yorick-3",
+          "lol-Yorick-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Yorick.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "约里克"
+      },
+      {
+        "id": "Yunara",
+        "name": "不破之誓",
+        "en": "Yunara",
+        "expected": [
+          "lol-Yunara-0",
+          "lol-Yunara-1",
+          "lol-Yunara-2",
+          "lol-Yunara-3",
+          "lol-Yunara-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Yunara.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "芸阿娜"
+      },
+      {
+        "id": "Yuumi",
+        "name": "魔法猫咪",
+        "en": "Yuumi",
+        "expected": [
+          "lol-Yuumi-0",
+          "lol-Yuumi-1",
+          "lol-Yuumi-2",
+          "lol-Yuumi-3",
+          "lol-Yuumi-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Yuumi.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "悠米"
+      },
+      {
+        "id": "Zaahen",
+        "name": "不落魔锋",
+        "en": "Zaahen",
+        "expected": [
+          "lol-Zaahen-0",
+          "lol-Zaahen-1",
+          "lol-Zaahen-2",
+          "lol-Zaahen-3",
+          "lol-Zaahen-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zaahen.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "亚恒"
+      },
+      {
+        "id": "Zac",
+        "name": "生化魔人",
+        "en": "Zac",
+        "expected": [
+          "lol-Zac-0",
+          "lol-Zac-1",
+          "lol-Zac-2",
+          "lol-Zac-3",
+          "lol-Zac-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zac.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "扎克"
+      },
+      {
+        "id": "Zed",
+        "name": "影流之主",
+        "en": "Zed",
+        "expected": [
+          "lol-Zed-0",
+          "lol-Zed-1",
+          "lol-Zed-2",
+          "lol-Zed-3",
+          "lol-Zed-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zed.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "劫"
+      },
+      {
+        "id": "Zeri",
+        "name": "祖安花火",
+        "en": "Zeri",
+        "expected": [
+          "lol-Zeri-0",
+          "lol-Zeri-1",
+          "lol-Zeri-2",
+          "lol-Zeri-3",
+          "lol-Zeri-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zeri.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "泽丽"
+      },
+      {
+        "id": "Ziggs",
+        "name": "爆破鬼才",
+        "en": "Ziggs",
+        "expected": [
+          "lol-Ziggs-0",
+          "lol-Ziggs-1",
+          "lol-Ziggs-2",
+          "lol-Ziggs-3",
+          "lol-Ziggs-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Ziggs.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "吉格斯"
+      },
+      {
+        "id": "Zilean",
+        "name": "时光守护者",
+        "en": "Zilean",
+        "expected": [
+          "lol-Zilean-0",
+          "lol-Zilean-1",
+          "lol-Zilean-2",
+          "lol-Zilean-3",
+          "lol-Zilean-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zilean.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "基兰"
+      },
+      {
+        "id": "Zoe",
+        "name": "暮光星灵",
+        "en": "Zoe",
+        "expected": [
+          "lol-Zoe-0",
+          "lol-Zoe-1",
+          "lol-Zoe-2",
+          "lol-Zoe-3",
+          "lol-Zoe-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zoe.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "佐伊"
+      },
+      {
+        "id": "Zyra",
+        "name": "荆棘之兴",
+        "en": "Zyra",
+        "expected": [
+          "lol-Zyra-0",
+          "lol-Zyra-1",
+          "lol-Zyra-2",
+          "lol-Zyra-3",
+          "lol-Zyra-4"
+        ],
+        "source": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion/Zyra.json",
+        "indexedSlots": 5,
+        "expectedSlots": 5,
+        "verifiedIcons": 5,
+        "missingIcons": [],
+        "alias": "婕拉"
+      }
+    ],
+    "statusDefinitions": 3909,
+    "statusTextureAssets": 308,
+    "binFilesScanned": 700,
+    "unitFilesScanned": 691,
+    "mapFilesScanned": 5,
+    "statusScope": "全部173位英雄及非TFT单位根定义共691份、通用/物品/符文/全局4份及地图5份；另枚举文档指定状态纹理目录。未涵盖皮肤专用脚本、未知哈希对象或运行时动态状态，不能证明全游戏100%。",
+    "heroesIndexed": 173,
+    "expectedSlots": 865,
+    "indexedSlots": 865,
+    "officialGenericIcons": 0,
+    "verifiedSkillIcons": 865,
+    "statusRecords": 4217,
+    "statusWithImages": 2819,
+    "statusDeclaredImages": 1833,
+    "statusRelatedImages": 678,
+    "statusAssetImages": 308,
+    "statusMissingImages": 1398,
+    "officialPages": 173,
+    "missingOfficialPages": []
+  },
+  "buffCompleteness": "unproven",
+  "limitations": [
+    "Buff没有可核对的官方全量注册表；不可将扫描来源内全量写成全游戏100%。",
+    "状态记录不等于独立图像；显式纹理、关联参考、未补图分别标识。",
+    "资源包含历史、内部与特殊模式条目；未验证每条是否在当前对局显示。",
+    "形状与物件标签主要来自文本规则，尚未逐图人工校验。"
+  ]
+}
