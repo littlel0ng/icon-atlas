@@ -4,12 +4,19 @@ export const PROTOTYPE_FIELDS={title:'原型名称',fantasy:'角色幻想与定�
 export const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'?u.href:'';}catch{return '';}};
 export const tokens=q=>String(q||'').trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+export const hasChinese=value=>/[\u4e00-\u9fff]/.test(value||'');
+export const displayDescription=r=>r.localization?.description||r.description||'';
+export const originalName=r=>r.originalName||r.name;
+export const descriptionIsChinese=r=>hasChinese(displayDescription(r));
+export function languageMatches(r,value){return !value||value==='all'||(value==='chinese'?descriptionIsChinese(r):value==='pending'?!descriptionIsChinese(r):true);}
+const metricTerms={'Number of Targets':'目标数','Damage':'伤害','Range':'射程','Radius':'半径','Duration':'持续','Distance':'距离','Healing':'治疗','Recharge':'冷却','Combo Field':'组合域','Combo Finisher':'组合终结','Health':'生命值','Mana':'法力','Fury':'怒气','Energy':'能量','Initiative':'先攻值','Spirit':'精魂','Instant':'瞬发','None':'无','Dark':'黑暗','Ethereal':'以太','Fire':'火焰','Ice':'冰霜','Light':'光明','Lightning':'闪电','Poison':'毒素','Smoke':'烟雾','Water':'水','Leap':'跳跃','Blast':'爆炸','Projectile':'投射物','Whirl':'旋转'};
+export const displayMetric=value=>String(value??'').replace(/Number of Targets|Combo Field|Combo Finisher|\b[A-Za-z]+\b/g,t=>metricTerms[t]||t);
 export function createIndex(data){
  const records=new Map(data.records.map(r=>[r.id,r]));
  const entities=new Map(data.entities.map(e=>[e.id,e]));
  const games=new Map(data.games.map(g=>[g.id,g]));
- for(const r of data.records)r.searchText=[r.name,r.en,r.description,r.sourceKey,games.get(r.game)?.name,...r.tags,...r.owners.flatMap(id=>{const e=entities.get(id);return e?[e.name,e.en,...e.aliases]:[];})].join(' ').toLocaleLowerCase();
- for(const e of data.entities)e.searchText=[e.name,e.en,e.title,e.summary,...e.roles,...e.tags,...e.aliases,games.get(e.game)?.name].join(' ').toLocaleLowerCase();
+ for(const r of data.records)r.searchText=[r.name,r.en,r.originalName,r.description,r.localization?.description,r.sourceKey,games.get(r.game)?.name,...r.tags,...r.owners.flatMap(id=>{const e=entities.get(id);return e?[e.name,e.en,...e.aliases]:[];})].join(' ').toLocaleLowerCase();
+ for(const e of data.entities)e.searchText=[e.name,e.en,e.originalName,e.title,e.summary,e.originalSummary,e.resource,e.originalResource,...e.roles,...(e.originalRoles||[]),...e.tags,...e.aliases,games.get(e.game)?.name].join(' ').toLocaleLowerCase();
  return {records,entities,games};
 }
 export function recordMatches(r,filter={}){
@@ -17,6 +24,7 @@ export function recordMatches(r,filter={}){
  &&(!filter.category||filter.category==='all'||(filter.category==='设计'?r.category!=='状态':r.category===filter.category))
  &&(!filter.mechanic||filter.mechanic==='all'||r.tags.includes(filter.mechanic))
  &&(!filter.mode||filter.mode==='all'||r.mode===filter.mode)
+ &&languageMatches(r,filter.language)
  &&tokens(filter.query).every(t=>r.searchText.includes(t));
 }
 export function entityMatches(e,filter={}){
@@ -41,9 +49,11 @@ export function mergeBoards(current,incoming,records){
 }
 export function reference(r,index,note=''){
  const game=index.games.get(r.game);
- return [`${r.name} · ${game.name} · ${r.category}`,`所属：${r.owners.map(id=>index.entities.get(id)?.name).filter(Boolean).join(' / ')||'通用状态'}`,
- `版本：${r.version}；来源快照：${r.snapshot}`,`说明（${r.descriptionBasis}）：${r.description||'尚未采集机制说明'}`,
- ...Object.entries(r.metrics).map(([k,v])=>`${k}：${v}`),
+ return [`${r.name} · ${game.name} · ${r.category}`,originalName(r)!==r.name?`原名：${originalName(r)}`:'',`所属：${r.owners.map(id=>index.entities.get(id)?.name).filter(Boolean).join(' / ')||'通用状态'}`,
+ `版本：${r.version}；来源快照：${r.snapshot}`,`说明：${displayDescription(r)||'尚未采集机制说明'}`,
+ ...(r.localization?.description?[`原始说明（${r.descriptionBasis}）：${r.description||'未采集'}`]:[]),
+ ...Object.entries(r.localization?.provenance||{}).map(([field,p])=>`${field==='name'?'中文名':'中文说明'}来源：${p.label}；${p.locale}；${p.version}；${p.date}；${p.url}；${p.note}`),
+ ...Object.entries(r.metrics).map(([k,v])=>`${displayMetric(k)}：${displayMetric(v)}`),
  ...(r.tier?[`天赋层级：${r.tier}`]:[]),
  ...(r.tags.length?[`辅助机制标签（文本规则）：${r.tags.join('、')}`]:[]),
  `来源：${r.source}`,`数据依据：${r.dataSource}`,`范围说明：${game.limitation}`,
