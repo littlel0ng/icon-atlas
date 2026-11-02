@@ -6409,6 +6409,1849 @@
       "kinds": {
         "技能": 39
       }
+    },
+    "wow": {
+      "name": "魔兽世界",
+      "badge": "WoW",
+      "date": "2026-11-02",
+      "sourceDate": "2022-08-20",
+      "version": "9.2.7 (45114)",
+      "label": "spell_/ability_源目录",
+      "indexed": 2483,
+      "expected": 2483,
+      "unit": "纹理文件",
+      "scope": "社区9.2.7（45114）、2022-08-20快照，仅spell_/ability_的PNG；不是当前正式服技能或Buff全量，纹理名不冒充技能名。",
+      "source": "https://github.com/Gethe/wow-ui-textures",
+      "revision": "d23deaf8f44a7d280dc974a5c9d5321c013db59b",
+      "groups": [
+        {
+          "id": "accretion",
+          "name": "accretion",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "ambush",
+          "name": "ambush",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "animaardenweald",
+          "name": "animaardenweald",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "animabastion",
+          "name": "animabastion",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "animamaldraxxus",
+          "name": "animamaldraxxus",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "animamaw",
+          "name": "animamaw",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "animarevendreth",
+          "name": "animarevendreth",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "animusdraw",
+          "name": "animusdraw",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "animusorbs",
+          "name": "animusorbs",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "arakkoa",
+          "name": "arakkoa",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "arcane",
+          "name": "奥术法术",
+          "records": 68,
+          "withImages": 68
+        },
+        {
+          "id": "ardenweald",
+          "name": "ardenweald",
+          "records": 15,
+          "withImages": 15
+        },
+        {
+          "id": "argus",
+          "name": "argus",
+          "records": 10,
+          "withImages": 10
+        },
+        {
+          "id": "azerite",
+          "name": "azerite",
+          "records": 18,
+          "withImages": 18
+        },
+        {
+          "id": "backstab",
+          "name": "backstab",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "bastion",
+          "name": "bastion",
+          "records": 12,
+          "withImages": 12
+        },
+        {
+          "id": "beastmaster",
+          "name": "beastmaster",
+          "records": 4,
+          "withImages": 4
+        },
+        {
+          "id": "blackhand",
+          "name": "blackhand",
+          "records": 4,
+          "withImages": 4
+        },
+        {
+          "id": "boss",
+          "name": "boss",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "bossashvane",
+          "name": "bossashvane",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "bossdarkvindicator",
+          "name": "bossdarkvindicator",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "bossfellord",
+          "name": "bossfellord",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "bossfelmagnaron",
+          "name": "bossfelmagnaron",
+          "records": 6,
+          "withImages": 6
+        },
+        {
+          "id": "bossfelorcs",
+          "name": "bossfelorcs",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "bossgorefiend",
+          "name": "bossgorefiend",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "bosskilrogg",
+          "name": "bosskilrogg",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "bossmagistrix",
+          "name": "bossmagistrix",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "bossmannoroth",
+          "name": "bossmannoroth",
+          "records": 4,
+          "withImages": 4
+        },
+        {
+          "id": "brew",
+          "name": "brew",
+          "records": 6,
+          "withImages": 6
+        },
+        {
+          "id": "brokenheart",
+          "name": "brokenheart",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "broker",
+          "name": "broker",
+          "records": 7,
+          "withImages": 7
+        },
+        {
+          "id": "brokerjazzband",
+          "name": "brokerjazzband",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "bullrush",
+          "name": "bullrush",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "burningbladeshaman",
+          "name": "burningbladeshaman",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "burningsoul",
+          "name": "burningsoul",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "butcher",
+          "name": "butcher",
+          "records": 5,
+          "withImages": 5
+        },
+        {
+          "id": "chargenegative",
+          "name": "chargenegative",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "chargepositive",
+          "name": "chargepositive",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "cheapshot",
+          "name": "cheapshot",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "creature",
+          "name": "creature",
+          "records": 22,
+          "withImages": 22
+        },
+        {
+          "id": "criticalstrike",
+          "name": "criticalstrike",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "crown",
+          "name": "crown",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "deathknight",
+          "name": "死亡骑士",
+          "records": 69,
+          "withImages": 69
+        },
+        {
+          "id": "deathvortex",
+          "name": "deathvortex",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "deathwing",
+          "name": "deathwing",
+          "records": 10,
+          "withImages": 10
+        },
+        {
+          "id": "deepwinddunk",
+          "name": "deepwinddunk",
+          "records": 5,
+          "withImages": 5
+        },
+        {
+          "id": "defend",
+          "name": "defend",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "demonhunter",
+          "name": "恶魔猎手",
+          "records": 58,
+          "withImages": 58
+        },
+        {
+          "id": "devour",
+          "name": "devour",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "domination",
+          "name": "domination",
+          "records": 13,
+          "withImages": 13
+        },
+        {
+          "id": "druid",
+          "name": "德鲁伊",
+          "records": 108,
+          "withImages": 108
+        },
+        {
+          "id": "dualwield",
+          "name": "dualwield",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "dualwieldspecialization",
+          "name": "dualwieldspecialization",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "earthen",
+          "name": "earthen",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "earthenfury",
+          "name": "earthenfury",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "ensnare",
+          "name": "ensnare",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "essence",
+          "name": "essence",
+          "records": 6,
+          "withImages": 6
+        },
+        {
+          "id": "eyeoftheowl",
+          "name": "eyeoftheowl",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "faultline",
+          "name": "faultline",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "fel",
+          "name": "fel",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "felarakkoa",
+          "name": "felarakkoa",
+          "records": 4,
+          "withImages": 4
+        },
+        {
+          "id": "felshieldemitter",
+          "name": "felshieldemitter",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "festergutgas",
+          "name": "festergutgas",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "fiegndead",
+          "name": "fiegndead",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "fire",
+          "name": "火焰法术",
+          "records": 81,
+          "withImages": 81
+        },
+        {
+          "id": "firefrost orb",
+          "name": "firefrost orb",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "fireresistancetotem",
+          "name": "fireresistancetotem",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "fixated",
+          "name": "fixated",
+          "records": 6,
+          "withImages": 6
+        },
+        {
+          "id": "fomor",
+          "name": "fomor",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "foundryraid",
+          "name": "foundryraid",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "frost",
+          "name": "冰霜法术",
+          "records": 37,
+          "withImages": 37
+        },
+        {
+          "id": "frostfire orb",
+          "name": "frostfire orb",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "frostresistancetotem",
+          "name": "frostresistancetotem",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "fusillade",
+          "name": "fusillade",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "garrison",
+          "name": "garrison",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "garrosh",
+          "name": "garrosh",
+          "records": 5,
+          "withImages": 5
+        },
+        {
+          "id": "ghoulfrenzy",
+          "name": "ghoulfrenzy",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "gift",
+          "name": "gift",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "glaivetoss",
+          "name": "glaivetoss",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "golemstormbolt",
+          "name": "golemstormbolt",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "golemthunderclap",
+          "name": "golemthunderclap",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "gouge",
+          "name": "gouge",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "hanzandfranz",
+          "name": "hanzandfranz",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "heroicleap",
+          "name": "heroicleap",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "hibernation",
+          "name": "hibernation",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "hisek",
+          "name": "hisek",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "holiday",
+          "name": "holiday",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "holy",
+          "name": "神圣法术",
+          "records": 139,
+          "withImages": 139
+        },
+        {
+          "id": "hunter",
+          "name": "猎人",
+          "records": 139,
+          "withImages": 139
+        },
+        {
+          "id": "ice",
+          "name": "ice",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "impalingbolt",
+          "name": "impalingbolt",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "impending",
+          "name": "impending",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "ironmaidens",
+          "name": "ironmaidens",
+          "records": 20,
+          "withImages": 20
+        },
+        {
+          "id": "iyyokuk",
+          "name": "iyyokuk",
+          "records": 31,
+          "withImages": 31
+        },
+        {
+          "id": "karoz",
+          "name": "karoz",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "kaztik",
+          "name": "kaztik",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "kick",
+          "name": "kick",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "kilruk",
+          "name": "kilruk",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "kultirandruidtravelform",
+          "name": "kultirandruidtravelform",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "kyrian",
+          "name": "kyrian",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "lfieblood",
+          "name": "lfieblood",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "lifegivingseed",
+          "name": "lifegivingseed",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "lifegivingspeed",
+          "name": "lifegivingspeed",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "lightning",
+          "name": "lightning",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "mage",
+          "name": "法师",
+          "records": 74,
+          "withImages": 74
+        },
+        {
+          "id": "magearmor",
+          "name": "magearmor",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "magic",
+          "name": "magic",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "maldraxxus",
+          "name": "maldraxxus",
+          "records": 13,
+          "withImages": 13
+        },
+        {
+          "id": "malkorok",
+          "name": "malkorok",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "marksmanship",
+          "name": "marksmanship",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "mekkatorque",
+          "name": "mekkatorque",
+          "records": 5,
+          "withImages": 5
+        },
+        {
+          "id": "meleedamage",
+          "name": "meleedamage",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "miling",
+          "name": "miling",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "misc",
+          "name": "misc",
+          "records": 15,
+          "withImages": 15
+        },
+        {
+          "id": "monk",
+          "name": "武僧",
+          "records": 95,
+          "withImages": 95
+        },
+        {
+          "id": "mount",
+          "name": "mount",
+          "records": 209,
+          "withImages": 209
+        },
+        {
+          "id": "nature",
+          "name": "自然法术",
+          "records": 124,
+          "withImages": 124
+        },
+        {
+          "id": "necro",
+          "name": "necro",
+          "records": 15,
+          "withImages": 15
+        },
+        {
+          "id": "necrolord",
+          "name": "necrolord",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "nightfae",
+          "name": "nightfae",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "nzinsanity",
+          "name": "nzinsanity",
+          "records": 12,
+          "withImages": 12
+        },
+        {
+          "id": "paladin",
+          "name": "圣骑士",
+          "records": 61,
+          "withImages": 61
+        },
+        {
+          "id": "parry",
+          "name": "parry",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "pet",
+          "name": "pet",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "physical",
+          "name": "physical",
+          "records": 2,
+          "withImages": 2
+        },
+        {
+          "id": "piercedamage",
+          "name": "piercedamage",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "poisonarrow",
+          "name": "poisonarrow",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "poisons",
+          "name": "poisons",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "poisonsting",
+          "name": "poisonsting",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "priest",
+          "name": "牧师",
+          "records": 65,
+          "withImages": 65
+        },
+        {
+          "id": "progenitor",
+          "name": "progenitor",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "psychicassault",
+          "name": "psychicassault",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "pvp",
+          "name": "pvp",
+          "records": 6,
+          "withImages": 6
+        },
+        {
+          "id": "quicksand",
+          "name": "quicksand",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "racial",
+          "name": "racial",
+          "records": 83,
+          "withImages": 83
+        },
+        {
+          "id": "repair",
+          "name": "repair",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "revendreth",
+          "name": "revendreth",
+          "records": 12,
+          "withImages": 12
+        },
+        {
+          "id": "rewindtime",
+          "name": "rewindtime",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "rhyolith",
+          "name": "rhyolith",
+          "records": 5,
+          "withImages": 5
+        },
+        {
+          "id": "rikkal",
+          "name": "rikkal",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "rogue",
+          "name": "潜行者",
+          "records": 102,
+          "withImages": 102
+        },
+        {
+          "id": "sandbolt",
+          "name": "sandbolt",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "sandelemental",
+          "name": "sandelemental",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "sandexplosion",
+          "name": "sandexplosion",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "sandstorm",
+          "name": "sandstorm",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "sap",
+          "name": "sap",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "seal",
+          "name": "seal",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "searingarrow",
+          "name": "searingarrow",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "shadow",
+          "name": "暗影法术",
+          "records": 138,
+          "withImages": 138
+        },
+        {
+          "id": "shaman",
+          "name": "萨满",
+          "records": 66,
+          "withImages": 66
+        },
+        {
+          "id": "shawaterelemental",
+          "name": "shawaterelemental",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "shockwave",
+          "name": "shockwave",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "shootwand",
+          "name": "shootwand",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "siege",
+          "name": "siege",
+          "records": 11,
+          "withImages": 11
+        },
+        {
+          "id": "skeer",
+          "name": "skeer",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "skyreach",
+          "name": "skyreach",
+          "records": 18,
+          "withImages": 18
+        },
+        {
+          "id": "smash",
+          "name": "smash",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "socererking",
+          "name": "socererking",
+          "records": 8,
+          "withImages": 8
+        },
+        {
+          "id": "soulrenderdormazain",
+          "name": "soulrenderdormazain",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "spy",
+          "name": "spy",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "stealth",
+          "name": "stealth",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "steelmelee",
+          "name": "steelmelee",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "suffocate",
+          "name": "suffocate",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "tailor",
+          "name": "tailor",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "tectonic",
+          "name": "tectonic",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "tetanus",
+          "name": "tetanus",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "theblackarrow",
+          "name": "theblackarrow",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "throw",
+          "name": "throw",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "thunderbolt",
+          "name": "thunderbolt",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "thunderclap",
+          "name": "thunderclap",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "thunderking",
+          "name": "thunderking",
+          "records": 10,
+          "withImages": 10
+        },
+        {
+          "id": "titankeeper",
+          "name": "titankeeper",
+          "records": 15,
+          "withImages": 15
+        },
+        {
+          "id": "totem",
+          "name": "totem",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "touchofanimus",
+          "name": "touchofanimus",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "toughness",
+          "name": "toughness",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "townwatch",
+          "name": "townwatch",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "tracking",
+          "name": "tracking",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "trueshot",
+          "name": "trueshot",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "unused",
+          "name": "unused",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "unused2",
+          "name": "unused2",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "upgrademoonglaive",
+          "name": "upgrademoonglaive",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "vanish",
+          "name": "vanish",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "vehicle",
+          "name": "vehicle",
+          "records": 19,
+          "withImages": 19
+        },
+        {
+          "id": "venthyr",
+          "name": "venthyr",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "volatilefiregreen",
+          "name": "volatilefiregreen",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "warlock",
+          "name": "术士",
+          "records": 58,
+          "withImages": 58
+        },
+        {
+          "id": "warrior",
+          "name": "战士",
+          "records": 66,
+          "withImages": 66
+        },
+        {
+          "id": "warstomp",
+          "name": "warstomp",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "whirlwind",
+          "name": "whirlwind",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "winston",
+          "name": "winston",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "wintergrasp",
+          "name": "wintergrasp",
+          "records": 3,
+          "withImages": 3
+        },
+        {
+          "id": "worgen",
+          "name": "worgen",
+          "records": 1,
+          "withImages": 1
+        },
+        {
+          "id": "xaril",
+          "name": "xaril",
+          "records": 7,
+          "withImages": 7
+        },
+        {
+          "id": "xavius",
+          "name": "xavius",
+          "records": 12,
+          "withImages": 12
+        },
+        {
+          "id": "yorsahj",
+          "name": "yorsahj",
+          "records": 9,
+          "withImages": 9
+        }
+      ],
+      "records": 2483,
+      "withImages": 2483,
+      "missingImages": 0,
+      "uniqueImages": 2483,
+      "kinds": {
+        "技能纹理资源": 2483
+      }
+    },
+    "poe": {
+      "name": "流放之路",
+      "badge": "PoE",
+      "date": "2026-11-02",
+      "version": "3.29.3.3",
+      "label": "社区可见状态纹理",
+      "indexed": 839,
+      "expected": 839,
+      "unit": "图像映射组",
+      "scope": "独立PoE1状态图标；不含本轮未接入的主动技能栏图标。社区版本3.29.3.3，含历史、内部、怪物状态，不是全游戏完整性证明。",
+      "source": "https://repoe-fork.github.io/buff_visuals.html",
+      "enumeratedVisuals": 2468,
+      "mappedDefinitions": 1410,
+      "skillRecords": 0,
+      "missingSkillIconDeclarations": 0,
+      "groups": [
+        {
+          "id": "buff",
+          "name": "增益状态",
+          "records": 523,
+          "withImages": 523
+        },
+        {
+          "id": "debuff",
+          "name": "减益状态",
+          "records": 494,
+          "withImages": 494
+        },
+        {
+          "id": "other",
+          "name": "药剂 / 其他状态",
+          "records": 393,
+          "withImages": 393
+        },
+        {
+          "id": "state-textures",
+          "name": "状态纹理目录",
+          "records": 28,
+          "withImages": 28
+        }
+      ],
+      "records": 1438,
+      "withImages": 1438,
+      "missingImages": 0,
+      "uniqueImages": 839,
+      "kinds": {
+        "减益 Debuff": 494,
+        "增益 Buff": 523,
+        "状态纹理资源": 28,
+        "状态（未分类）": 393
+      }
+    },
+    "poe2": {
+      "name": "流放之路 2",
+      "badge": "PoE2",
+      "date": "2026-11-02",
+      "version": "0.5.5.5",
+      "label": "社区可见状态纹理",
+      "indexed": 896,
+      "expected": 896,
+      "unit": "图像映射组",
+      "scope": "独立PoE2状态与released主动/精魂/辅助技能栏图标，未混用一代数据。社区版本0.5.5.5，含历史、内部、怪物状态，不是全游戏完整性证明。",
+      "source": "https://repoe-fork.github.io/poe2/buff_visuals.html",
+      "enumeratedVisuals": 2934,
+      "mappedDefinitions": 1465,
+      "skillRecords": 1191,
+      "missingSkillIconDeclarations": 80,
+      "groups": [
+        {
+          "id": "active",
+          "name": "主动技能",
+          "records": 505,
+          "withImages": 468
+        },
+        {
+          "id": "buff",
+          "name": "增益状态",
+          "records": 473,
+          "withImages": 473
+        },
+        {
+          "id": "debuff",
+          "name": "减益状态",
+          "records": 568,
+          "withImages": 568
+        },
+        {
+          "id": "other",
+          "name": "药剂 / 其他状态",
+          "records": 424,
+          "withImages": 424
+        },
+        {
+          "id": "spirit",
+          "name": "精魂技能",
+          "records": 44,
+          "withImages": 44
+        },
+        {
+          "id": "state-textures",
+          "name": "状态纹理目录",
+          "records": 82,
+          "withImages": 82
+        },
+        {
+          "id": "support",
+          "name": "辅助技能",
+          "records": 642,
+          "withImages": 599
+        }
+      ],
+      "records": 2738,
+      "withImages": 2658,
+      "missingImages": 80,
+      "uniqueImages": 1736,
+      "kinds": {
+        "减益 Debuff": 568,
+        "增益 Buff": 473,
+        "技能": 549,
+        "状态纹理资源": 82,
+        "状态（未分类）": 424,
+        "辅助技能": 642
+      }
+    },
+    "d3": {
+      "name": "暗黑破坏神 III",
+      "badge": "D3",
+      "date": "2026-11-02",
+      "label": "官方职业页面",
+      "indexed": 14,
+      "expected": 14,
+      "unit": "页面",
+      "groups": [
+        {
+          "id": "barbarian|active",
+          "name": "野蛮人 · 主动",
+          "records": 23,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/barbarian/active/",
+          "hero": "barbarian",
+          "mode": "active",
+          "withImages": 23
+        },
+        {
+          "id": "barbarian|passive",
+          "name": "野蛮人 · 被动",
+          "records": 19,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/barbarian/passive/",
+          "hero": "barbarian",
+          "mode": "passive",
+          "withImages": 19
+        },
+        {
+          "id": "crusader|active",
+          "name": "圣教军 · 主动",
+          "records": 24,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/crusader/active/",
+          "hero": "crusader",
+          "mode": "active",
+          "withImages": 24
+        },
+        {
+          "id": "crusader|passive",
+          "name": "圣教军 · 被动",
+          "records": 18,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/crusader/passive/",
+          "hero": "crusader",
+          "mode": "passive",
+          "withImages": 18
+        },
+        {
+          "id": "demon-hunter|active",
+          "name": "猎魔人 · 主动",
+          "records": 24,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/demon-hunter/active/",
+          "hero": "demon-hunter",
+          "mode": "active",
+          "withImages": 24
+        },
+        {
+          "id": "demon-hunter|passive",
+          "name": "猎魔人 · 被动",
+          "records": 19,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/demon-hunter/passive/",
+          "hero": "demon-hunter",
+          "mode": "passive",
+          "withImages": 19
+        },
+        {
+          "id": "monk|active",
+          "name": "武僧 · 主动",
+          "records": 22,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/monk/active/",
+          "hero": "monk",
+          "mode": "active",
+          "withImages": 22
+        },
+        {
+          "id": "monk|passive",
+          "name": "武僧 · 被动",
+          "records": 18,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/monk/passive/",
+          "hero": "monk",
+          "mode": "passive",
+          "withImages": 18
+        },
+        {
+          "id": "necromancer|active",
+          "name": "死灵法师 · 主动",
+          "records": 21,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/necromancer/active/",
+          "hero": "necromancer",
+          "mode": "active",
+          "withImages": 21
+        },
+        {
+          "id": "necromancer|passive",
+          "name": "死灵法师 · 被动",
+          "records": 20,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/necromancer/passive/",
+          "hero": "necromancer",
+          "mode": "passive",
+          "withImages": 20
+        },
+        {
+          "id": "witch-doctor|active",
+          "name": "巫医 · 主动",
+          "records": 23,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/witch-doctor/active/",
+          "hero": "witch-doctor",
+          "mode": "active",
+          "withImages": 23
+        },
+        {
+          "id": "witch-doctor|passive",
+          "name": "巫医 · 被动",
+          "records": 19,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/witch-doctor/passive/",
+          "hero": "witch-doctor",
+          "mode": "passive",
+          "withImages": 19
+        },
+        {
+          "id": "wizard|active",
+          "name": "魔法师 · 主动",
+          "records": 26,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/wizard/active/",
+          "hero": "wizard",
+          "mode": "active",
+          "withImages": 26
+        },
+        {
+          "id": "wizard|passive",
+          "name": "魔法师 · 被动",
+          "records": 18,
+          "source": "https://us.diablo3.blizzard.com/en-us/class/wizard/passive/",
+          "hero": "wizard",
+          "mode": "passive",
+          "withImages": 18
+        }
+      ],
+      "scope": "官方七职业主动/被动指南14页；不含符文变体和独立Buff。职业页面完整不等于全游戏资源完整。",
+      "source": "https://us.diablo3.blizzard.com/en-us/class/",
+      "records": 294,
+      "withImages": 294,
+      "missingImages": 0,
+      "uniqueImages": 294,
+      "kinds": {
+        "技能": 163,
+        "被动": 131
+      }
+    },
+    "d4": {
+      "name": "暗黑破坏神 IV",
+      "badge": "D4",
+      "date": "2026-11-02",
+      "sourceDate": "2026-07-09",
+      "label": "社区五职业旧版技能树",
+      "indexed": 342,
+      "expected": 654,
+      "unit": "已映射纹理",
+      "groups": [
+        {
+          "id": "barbarian",
+          "name": "野蛮人",
+          "records": 96,
+          "expectedTextures": 96,
+          "mappedSkills": 23,
+          "withImages": 96
+        },
+        {
+          "id": "druid",
+          "name": "德鲁伊",
+          "records": 100,
+          "expectedTextures": 100,
+          "mappedSkills": 25,
+          "withImages": 100
+        },
+        {
+          "id": "necromancer",
+          "name": "死灵法师",
+          "records": 102,
+          "expectedTextures": 102,
+          "mappedSkills": 19,
+          "withImages": 102
+        },
+        {
+          "id": "rogue",
+          "name": "游侠",
+          "records": 256,
+          "expectedTextures": 256,
+          "mappedSkills": 23,
+          "withImages": 256
+        },
+        {
+          "id": "sorcerer",
+          "name": "巫师",
+          "records": 100,
+          "expectedTextures": 100,
+          "mappedSkills": 24,
+          "withImages": 100
+        }
+      ],
+      "scope": "Lothrik旧版五职业；按渲染器114技能名与三种亮暗状态显式映射，图片编号不是节点ID。其他被动/强化节点未接入；另有未映射目录纹理。未覆盖当前后续职业或独立Buff；D4Builds图片CDN本次403。",
+      "source": "https://github.com/Lothrik/diablo4-build-calc",
+      "revision": "4e3899a709cfa5ad767096796d84da61f6ee0174",
+      "unmappedTextures": [
+        "images/tree/barbarian_0.png",
+        "images/tree/barbarian_12.png",
+        "images/tree/barbarian_13.png",
+        "images/tree/barbarian_14.png",
+        "images/tree/barbarian_15.png",
+        "images/tree/barbarian_16.png",
+        "images/tree/barbarian_20.png",
+        "images/tree/barbarian_24.png",
+        "images/tree/barbarian_28.png",
+        "images/tree/barbarian_32.png",
+        "images/tree/barbarian_36.png",
+        "images/tree/barbarian_4.png",
+        "images/tree/barbarian_40.png",
+        "images/tree/barbarian_44.png",
+        "images/tree/barbarian_48.png",
+        "images/tree/barbarian_52.png",
+        "images/tree/barbarian_56.png",
+        "images/tree/barbarian_60.png",
+        "images/tree/barbarian_64.png",
+        "images/tree/barbarian_68.png",
+        "images/tree/barbarian_72.png",
+        "images/tree/barbarian_76.png",
+        "images/tree/barbarian_8.png",
+        "images/tree/barbarian_80.png",
+        "images/tree/barbarian_84.png",
+        "images/tree/barbarian_91.png",
+        "images/tree/barbarian_95.png",
+        "images/tree/druid_0.png",
+        "images/tree/druid_12.png",
+        "images/tree/druid_16.png",
+        "images/tree/druid_20.png",
+        "images/tree/druid_24.png",
+        "images/tree/druid_28.png",
+        "images/tree/druid_32.png",
+        "images/tree/druid_36.png",
+        "images/tree/druid_4.png",
+        "images/tree/druid_40.png",
+        "images/tree/druid_44.png",
+        "images/tree/druid_48.png",
+        "images/tree/druid_52.png",
+        "images/tree/druid_56.png",
+        "images/tree/druid_60.png",
+        "images/tree/druid_64.png",
+        "images/tree/druid_68.png",
+        "images/tree/druid_72.png",
+        "images/tree/druid_76.png",
+        "images/tree/druid_8.png",
+        "images/tree/druid_80.png",
+        "images/tree/druid_84.png",
+        "images/tree/druid_88.png",
+        "images/tree/druid_92.png",
+        "images/tree/druid_99.png",
+        "images/tree/necromancer_0.png",
+        "images/tree/necromancer_100.png",
+        "images/tree/necromancer_101.png",
+        "images/tree/necromancer_12.png",
+        "images/tree/necromancer_16.png",
+        "images/tree/necromancer_20.png",
+        "images/tree/necromancer_24.png",
+        "images/tree/necromancer_28.png",
+        "images/tree/necromancer_32.png",
+        "images/tree/necromancer_36.png",
+        "images/tree/necromancer_4.png",
+        "images/tree/necromancer_40.png",
+        "images/tree/necromancer_44.png",
+        "images/tree/necromancer_48.png",
+        "images/tree/necromancer_52.png",
+        "images/tree/necromancer_56.png",
+        "images/tree/necromancer_60.png",
+        "images/tree/necromancer_61.png",
+        "images/tree/necromancer_62.png",
+        "images/tree/necromancer_63.png",
+        "images/tree/necromancer_64.png",
+        "images/tree/necromancer_68.png",
+        "images/tree/necromancer_72.png",
+        "images/tree/necromancer_76.png",
+        "images/tree/necromancer_8.png",
+        "images/tree/necromancer_80.png",
+        "images/tree/necromancer_81.png",
+        "images/tree/necromancer_82.png",
+        "images/tree/necromancer_83.png",
+        "images/tree/necromancer_84.png",
+        "images/tree/necromancer_85.png",
+        "images/tree/necromancer_86.png",
+        "images/tree/necromancer_87.png",
+        "images/tree/necromancer_88.png",
+        "images/tree/necromancer_89.png",
+        "images/tree/necromancer_90.png",
+        "images/tree/necromancer_91.png",
+        "images/tree/necromancer_92.png",
+        "images/tree/necromancer_93.png",
+        "images/tree/necromancer_94.png",
+        "images/tree/necromancer_95.png",
+        "images/tree/necromancer_96.png",
+        "images/tree/necromancer_97.png",
+        "images/tree/necromancer_98.png",
+        "images/tree/necromancer_99.png",
+        "images/tree/rogue_10.png",
+        "images/tree/rogue_100.png",
+        "images/tree/rogue_101.png",
+        "images/tree/rogue_102.png",
+        "images/tree/rogue_103.png",
+        "images/tree/rogue_104.png",
+        "images/tree/rogue_105.png",
+        "images/tree/rogue_106.png",
+        "images/tree/rogue_107.png",
+        "images/tree/rogue_108.png",
+        "images/tree/rogue_109.png",
+        "images/tree/rogue_11.png",
+        "images/tree/rogue_113.png",
+        "images/tree/rogue_117.png",
+        "images/tree/rogue_118.png",
+        "images/tree/rogue_119.png",
+        "images/tree/rogue_12.png",
+        "images/tree/rogue_120.png",
+        "images/tree/rogue_121.png",
+        "images/tree/rogue_122.png",
+        "images/tree/rogue_123.png",
+        "images/tree/rogue_124.png",
+        "images/tree/rogue_125.png",
+        "images/tree/rogue_126.png",
+        "images/tree/rogue_127.png",
+        "images/tree/rogue_128.png",
+        "images/tree/rogue_129.png",
+        "images/tree/rogue_13.png",
+        "images/tree/rogue_133.png",
+        "images/tree/rogue_137.png",
+        "images/tree/rogue_138.png",
+        "images/tree/rogue_139.png",
+        "images/tree/rogue_14.png",
+        "images/tree/rogue_140.png",
+        "images/tree/rogue_141.png",
+        "images/tree/rogue_142.png",
+        "images/tree/rogue_143.png",
+        "images/tree/rogue_144.png",
+        "images/tree/rogue_145.png",
+        "images/tree/rogue_146.png",
+        "images/tree/rogue_147.png",
+        "images/tree/rogue_148.png",
+        "images/tree/rogue_149.png",
+        "images/tree/rogue_15.png",
+        "images/tree/rogue_153.png",
+        "images/tree/rogue_154.png",
+        "images/tree/rogue_155.png",
+        "images/tree/rogue_156.png",
+        "images/tree/rogue_157.png",
+        "images/tree/rogue_158.png",
+        "images/tree/rogue_159.png",
+        "images/tree/rogue_16.png",
+        "images/tree/rogue_160.png",
+        "images/tree/rogue_161.png",
+        "images/tree/rogue_162.png",
+        "images/tree/rogue_163.png",
+        "images/tree/rogue_164.png",
+        "images/tree/rogue_165.png",
+        "images/tree/rogue_169.png",
+        "images/tree/rogue_17.png",
+        "images/tree/rogue_170.png",
+        "images/tree/rogue_171.png",
+        "images/tree/rogue_172.png",
+        "images/tree/rogue_173.png",
+        "images/tree/rogue_174.png",
+        "images/tree/rogue_175.png",
+        "images/tree/rogue_176.png",
+        "images/tree/rogue_177.png",
+        "images/tree/rogue_178.png",
+        "images/tree/rogue_179.png",
+        "images/tree/rogue_180.png",
+        "images/tree/rogue_181.png",
+        "images/tree/rogue_185.png",
+        "images/tree/rogue_186.png",
+        "images/tree/rogue_187.png",
+        "images/tree/rogue_188.png",
+        "images/tree/rogue_189.png",
+        "images/tree/rogue_190.png",
+        "images/tree/rogue_191.png",
+        "images/tree/rogue_192.png",
+        "images/tree/rogue_193.png",
+        "images/tree/rogue_194.png",
+        "images/tree/rogue_195.png",
+        "images/tree/rogue_196.png",
+        "images/tree/rogue_197.png",
+        "images/tree/rogue_2.png",
+        "images/tree/rogue_201.png",
+        "images/tree/rogue_202.png",
+        "images/tree/rogue_203.png",
+        "images/tree/rogue_204.png",
+        "images/tree/rogue_205.png",
+        "images/tree/rogue_206.png",
+        "images/tree/rogue_207.png",
+        "images/tree/rogue_208.png",
+        "images/tree/rogue_209.png",
+        "images/tree/rogue_21.png",
+        "images/tree/rogue_210.png",
+        "images/tree/rogue_211.png",
+        "images/tree/rogue_212.png",
+        "images/tree/rogue_214.png",
+        "images/tree/rogue_215.png",
+        "images/tree/rogue_219.png",
+        "images/tree/rogue_22.png",
+        "images/tree/rogue_220.png",
+        "images/tree/rogue_221.png",
+        "images/tree/rogue_222.png",
+        "images/tree/rogue_223.png",
+        "images/tree/rogue_224.png",
+        "images/tree/rogue_225.png",
+        "images/tree/rogue_226.png",
+        "images/tree/rogue_227.png",
+        "images/tree/rogue_228.png",
+        "images/tree/rogue_229.png",
+        "images/tree/rogue_23.png",
+        "images/tree/rogue_230.png",
+        "images/tree/rogue_231.png",
+        "images/tree/rogue_232.png",
+        "images/tree/rogue_233.png",
+        "images/tree/rogue_234.png",
+        "images/tree/rogue_235.png",
+        "images/tree/rogue_239.png",
+        "images/tree/rogue_24.png",
+        "images/tree/rogue_243.png",
+        "images/tree/rogue_244.png",
+        "images/tree/rogue_245.png",
+        "images/tree/rogue_246.png",
+        "images/tree/rogue_247.png",
+        "images/tree/rogue_25.png",
+        "images/tree/rogue_251.png",
+        "images/tree/rogue_255.png",
+        "images/tree/rogue_26.png",
+        "images/tree/rogue_27.png",
+        "images/tree/rogue_28.png",
+        "images/tree/rogue_29.png",
+        "images/tree/rogue_30.png",
+        "images/tree/rogue_31.png",
+        "images/tree/rogue_32.png",
+        "images/tree/rogue_33.png",
+        "images/tree/rogue_37.png",
+        "images/tree/rogue_38.png",
+        "images/tree/rogue_39.png",
+        "images/tree/rogue_40.png",
+        "images/tree/rogue_41.png",
+        "images/tree/rogue_42.png",
+        "images/tree/rogue_43.png",
+        "images/tree/rogue_44.png",
+        "images/tree/rogue_45.png",
+        "images/tree/rogue_46.png",
+        "images/tree/rogue_47.png",
+        "images/tree/rogue_48.png",
+        "images/tree/rogue_49.png",
+        "images/tree/rogue_53.png",
+        "images/tree/rogue_57.png",
+        "images/tree/rogue_6.png",
+        "images/tree/rogue_61.png",
+        "images/tree/rogue_65.png",
+        "images/tree/rogue_66.png",
+        "images/tree/rogue_67.png",
+        "images/tree/rogue_68.png",
+        "images/tree/rogue_69.png",
+        "images/tree/rogue_7.png",
+        "images/tree/rogue_70.png",
+        "images/tree/rogue_71.png",
+        "images/tree/rogue_72.png",
+        "images/tree/rogue_73.png",
+        "images/tree/rogue_74.png",
+        "images/tree/rogue_75.png",
+        "images/tree/rogue_76.png",
+        "images/tree/rogue_77.png",
+        "images/tree/rogue_8.png",
+        "images/tree/rogue_81.png",
+        "images/tree/rogue_82.png",
+        "images/tree/rogue_83.png",
+        "images/tree/rogue_84.png",
+        "images/tree/rogue_85.png",
+        "images/tree/rogue_86.png",
+        "images/tree/rogue_87.png",
+        "images/tree/rogue_88.png",
+        "images/tree/rogue_89.png",
+        "images/tree/rogue_9.png",
+        "images/tree/rogue_90.png",
+        "images/tree/rogue_91.png",
+        "images/tree/rogue_92.png",
+        "images/tree/rogue_93.png",
+        "images/tree/rogue_97.png",
+        "images/tree/rogue_98.png",
+        "images/tree/rogue_99.png",
+        "images/tree/sorcerer_0.png",
+        "images/tree/sorcerer_104.png",
+        "images/tree/sorcerer_12.png",
+        "images/tree/sorcerer_16.png",
+        "images/tree/sorcerer_20.png",
+        "images/tree/sorcerer_24.png",
+        "images/tree/sorcerer_32.png",
+        "images/tree/sorcerer_36.png",
+        "images/tree/sorcerer_4.png",
+        "images/tree/sorcerer_40.png",
+        "images/tree/sorcerer_44.png",
+        "images/tree/sorcerer_48.png",
+        "images/tree/sorcerer_52.png",
+        "images/tree/sorcerer_56.png",
+        "images/tree/sorcerer_60.png",
+        "images/tree/sorcerer_61.png",
+        "images/tree/sorcerer_62.png",
+        "images/tree/sorcerer_63.png",
+        "images/tree/sorcerer_64.png",
+        "images/tree/sorcerer_68.png",
+        "images/tree/sorcerer_72.png",
+        "images/tree/sorcerer_76.png",
+        "images/tree/sorcerer_8.png",
+        "images/tree/sorcerer_80.png",
+        "images/tree/sorcerer_84.png",
+        "images/tree/sorcerer_88.png",
+        "images/tree/sorcerer_92.png",
+        "images/tree/sorcerer_96.png"
+      ],
+      "mappedSkills": 114,
+      "records": 654,
+      "withImages": 654,
+      "missingImages": 0,
+      "uniqueImages": 654,
+      "kinds": {
+        "技能": 114,
+        "技能变体": 228,
+        "技能纹理资源": 312
+      }
     }
   },
   "reviewedAt": "2026-11-02",
@@ -6448,23 +8291,26 @@
     {
       "rank": 5,
       "name": "魔兽世界",
-      "status": "后续优先 · 尚未入库",
-      "reason": "彩绘法术、武器和状态图的高价值参照；完整官方数据接入需OAuth应用凭据，本次未具备。",
-      "url": "https://develop.battle.net/documentation/world-of-warcraft/game-data-apis"
+      "status": "已补充社区纹理",
+      "reason": "已加入社区9.2.7的法术/能力纹理；仍需当前版本与技能ID映射。",
+      "url": "https://github.com/Gethe/wow-ui-textures",
+      "game": "wow"
     },
     {
       "rank": 6,
       "name": "流放之路 1 / 2",
-      "status": "后续 · 尚未入库",
-      "reason": "适合暗黑诅咒、光环、异常状态；需分别核对两代游戏，并区分技能宝石与状态原图。",
-      "url": "https://www.poewiki.net/wiki/Buff"
+      "status": "已补充一代/二代状态与二代技能",
+      "reason": "分别接入RePoE一代与二代状态；二代包含主动/精魂/辅助技能栏图标。",
+      "url": "https://repoe-fork.github.io/",
+      "game": "poe"
     },
     {
       "rank": 7,
-      "name": "暗黑破坏神 IV / Grim Dawn",
-      "status": "后续 · 尚未入库",
-      "reason": "补充低饱和暗黑彩绘、被动星座与持续状态；需建立可验证的公开索引。",
-      "url": "https://www.grimtools.com/calc/"
+      "name": "暗黑破坏神 III / IV",
+      "status": "已补充职业技能；Grim Dawn待接入",
+      "reason": "III使用官方七职业指南，IV采用社区旧版五职业技能树；独立状态与后续职业仍有缺口。",
+      "url": "https://github.com/Lothrik/diablo4-build-calc",
+      "game": "d4"
     },
     {
       "rank": 8,
