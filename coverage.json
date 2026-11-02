@@ -5432,5 +5432,1060 @@
     "状态记录不等于独立图像；显式纹理、关联参考、未补图分别标识。",
     "资源包含历史、内部与特殊模式条目；未验证每条是否在当前对局显示。",
     "形状与物件标签主要来自文本规则，尚未逐图人工校验。"
-  ]
+  ],
+  "catalog": {
+    "gw2": {
+      "name": "激战 2",
+      "badge": "GW2",
+      "date": "2026-11-02",
+      "label": "官方职业清单",
+      "indexed": 9,
+      "expected": 9,
+      "unit": "职业",
+      "scope": "全量枚举 API 技能后筛选带 professions 的条目；保留原 12 增益 + 14 症状。非全游戏技能/效果。",
+      "source": "https://api.guildwars2.com/v2/professions?ids=all",
+      "enumerated": 4763,
+      "groups": [
+        {
+          "id": "Guardian",
+          "name": "守护者",
+          "records": 317,
+          "withImages": 317
+        },
+        {
+          "id": "Warrior",
+          "name": "战士",
+          "records": 326,
+          "withImages": 326
+        },
+        {
+          "id": "Engineer",
+          "name": "工程师",
+          "records": 392,
+          "withImages": 392
+        },
+        {
+          "id": "Ranger",
+          "name": "游侠",
+          "records": 374,
+          "withImages": 374
+        },
+        {
+          "id": "Thief",
+          "name": "潜行者",
+          "records": 316,
+          "withImages": 316
+        },
+        {
+          "id": "Elementalist",
+          "name": "元素使",
+          "records": 463,
+          "withImages": 463
+        },
+        {
+          "id": "Mesmer",
+          "name": "幻术师",
+          "records": 268,
+          "withImages": 268
+        },
+        {
+          "id": "Necromancer",
+          "name": "死灵法师",
+          "records": 296,
+          "withImages": 296
+        },
+        {
+          "id": "Revenant",
+          "name": "魂武者",
+          "records": 244,
+          "withImages": 244
+        }
+      ],
+      "records": 2337,
+      "withImages": 2337,
+      "missingImages": 0,
+      "uniqueImages": 1919,
+      "kinds": {
+        "减益 Debuff": 14,
+        "增益 Buff": 12,
+        "技能": 2311
+      }
+    },
+    "ffxiv": {
+      "name": "最终幻想 XIV",
+      "badge": "XIV",
+      "date": "2026-11-02",
+      "label": "官方职业指南页面",
+      "indexed": 21,
+      "expected": 23,
+      "unit": "职业页面",
+      "groups": [
+        {
+          "id": "paladin",
+          "name": "骑士",
+          "records": 93,
+          "kinds": {
+            "技能": 48,
+            "被动": 20,
+            "技能变体": 25
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/paladin/",
+          "withImages": 93
+        },
+        {
+          "id": "warrior",
+          "name": "战士",
+          "records": 83,
+          "kinds": {
+            "技能": 42,
+            "被动": 19,
+            "技能变体": 22
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/warrior/",
+          "withImages": 83
+        },
+        {
+          "id": "darkknight",
+          "name": "暗黑骑士",
+          "records": 79,
+          "kinds": {
+            "技能": 44,
+            "被动": 13,
+            "技能变体": 22
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/darkknight/",
+          "withImages": 79
+        },
+        {
+          "id": "gunbreaker",
+          "name": "绝枪战士",
+          "records": 88,
+          "kinds": {
+            "技能": 47,
+            "被动": 14,
+            "技能变体": 27
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/gunbreaker/",
+          "withImages": 88
+        },
+        {
+          "id": "whitemage",
+          "name": "白魔法师",
+          "records": 81,
+          "kinds": {
+            "技能": 43,
+            "被动": 21,
+            "技能变体": 17
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/whitemage/",
+          "withImages": 81
+        },
+        {
+          "id": "scholar",
+          "name": "学者",
+          "records": 92,
+          "kinds": {
+            "技能": 57,
+            "被动": 16,
+            "技能变体": 19
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/scholar/",
+          "withImages": 92
+        },
+        {
+          "id": "astrologian",
+          "name": "占星术士",
+          "records": 96,
+          "kinds": {
+            "技能": 55,
+            "被动": 20,
+            "技能变体": 21
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/astrologian/",
+          "withImages": 96
+        },
+        {
+          "id": "sage",
+          "name": "贤者",
+          "records": 82,
+          "kinds": {
+            "技能": 47,
+            "被动": 16,
+            "技能变体": 19
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/sage/",
+          "withImages": 82
+        },
+        {
+          "id": "monk",
+          "name": "武僧",
+          "records": 90,
+          "kinds": {
+            "技能": 49,
+            "被动": 19,
+            "技能变体": 22
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/monk/",
+          "withImages": 90
+        },
+        {
+          "id": "dragoon",
+          "name": "龙骑士",
+          "records": 77,
+          "kinds": {
+            "技能": 41,
+            "被动": 13,
+            "技能变体": 23
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/dragoon/",
+          "withImages": 77
+        },
+        {
+          "id": "ninja",
+          "name": "忍者",
+          "records": 96,
+          "kinds": {
+            "技能": 50,
+            "被动": 19,
+            "技能变体": 27
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/ninja/",
+          "withImages": 96
+        },
+        {
+          "id": "samurai",
+          "name": "武士",
+          "records": 86,
+          "kinds": {
+            "技能": 47,
+            "被动": 15,
+            "技能变体": 24
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/samurai/",
+          "withImages": 86
+        },
+        {
+          "id": "reaper",
+          "name": "钐镰客",
+          "records": 86,
+          "kinds": {
+            "技能": 46,
+            "被动": 14,
+            "技能变体": 26
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/reaper/",
+          "withImages": 86
+        },
+        {
+          "id": "viper",
+          "name": "蝰蛇剑士",
+          "records": 103,
+          "kinds": {
+            "技能": 53,
+            "被动": 13,
+            "技能变体": 37
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/viper/",
+          "withImages": 103
+        },
+        {
+          "id": "beastmaster",
+          "name": "驯兽师",
+          "records": 0,
+          "kinds": {
+            "技能": 0,
+            "被动": 0,
+            "技能变体": 0
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/beastmaster/",
+          "withImages": 0
+        },
+        {
+          "id": "bard",
+          "name": "吟游诗人",
+          "records": 81,
+          "kinds": {
+            "技能": 41,
+            "被动": 22,
+            "技能变体": 18
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/bard/",
+          "withImages": 81
+        },
+        {
+          "id": "machinist",
+          "name": "机工士",
+          "records": 89,
+          "kinds": {
+            "技能": 46,
+            "被动": 21,
+            "技能变体": 22
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/machinist/",
+          "withImages": 89
+        },
+        {
+          "id": "dancer",
+          "name": "舞者",
+          "records": 80,
+          "kinds": {
+            "技能": 42,
+            "被动": 16,
+            "技能变体": 22
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/dancer/",
+          "withImages": 80
+        },
+        {
+          "id": "blackmage",
+          "name": "黑魔法师",
+          "records": 93,
+          "kinds": {
+            "技能": 41,
+            "被动": 23,
+            "技能变体": 29
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/blackmage/",
+          "withImages": 93
+        },
+        {
+          "id": "summoner",
+          "name": "召唤师",
+          "records": 138,
+          "kinds": {
+            "技能": 87,
+            "被动": 25,
+            "技能变体": 26
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/summoner/",
+          "withImages": 138
+        },
+        {
+          "id": "redmage",
+          "name": "赤魔法师",
+          "records": 87,
+          "kinds": {
+            "技能": 50,
+            "被动": 15,
+            "技能变体": 22
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/redmage/",
+          "withImages": 87
+        },
+        {
+          "id": "pictomancer",
+          "name": "绘灵法师",
+          "records": 100,
+          "kinds": {
+            "技能": 50,
+            "被动": 16,
+            "技能变体": 34
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/pictomancer/",
+          "withImages": 100
+        },
+        {
+          "id": "bluemage",
+          "name": "青魔法师",
+          "records": 0,
+          "kinds": {
+            "技能": 0,
+            "被动": 0,
+            "技能变体": 0
+          },
+          "source": "https://na.finalfantasyxiv.com/jobguide/bluemage/",
+          "withImages": 0
+        }
+      ],
+      "scope": "已列出的战斗职业指南动作、特性与 PvP 变体；页面无技能时保留缺口。独立 Buff/Status 表未接入（XIVAPI 本次返回403）。",
+      "source": "https://na.finalfantasyxiv.com/jobguide/battle/",
+      "records": 1900,
+      "withImages": 1900,
+      "missingImages": 0,
+      "uniqueImages": 1554,
+      "kinds": {
+        "技能": 1026,
+        "技能变体": 504,
+        "被动": 370
+      }
+    },
+    "hots": {
+      "name": "风暴英雄",
+      "badge": "HotS",
+      "date": "2026-11-02",
+      "sourceDate": "2023-11-17",
+      "label": "社区源英雄清单",
+      "indexed": 90,
+      "expected": 90,
+      "unit": "源内英雄",
+      "groups": [
+        {
+          "id": "abathur",
+          "name": "Abathur",
+          "records": 33,
+          "withImages": 33
+        },
+        {
+          "id": "alarak",
+          "name": "Alarak",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "alexstrasza",
+          "name": "Alexstrasza",
+          "records": 32,
+          "withImages": 32
+        },
+        {
+          "id": "ana",
+          "name": "Ana",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "anduin",
+          "name": "Anduin",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "anubarak",
+          "name": "Anub'arak",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "artanis",
+          "name": "Artanis",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "arthas",
+          "name": "Arthas",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "auriel",
+          "name": "Auriel",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "azmodan",
+          "name": "Azmodan",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "blaze",
+          "name": "Blaze",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "brightwing",
+          "name": "Brightwing",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "cassia",
+          "name": "Cassia",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "chen",
+          "name": "Chen",
+          "records": 32,
+          "withImages": 32
+        },
+        {
+          "id": "chogall",
+          "name": "Cho",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "chromie",
+          "name": "Chromie",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "deathwing",
+          "name": "Deathwing",
+          "records": 31,
+          "withImages": 31
+        },
+        {
+          "id": "deckard",
+          "name": "Deckard",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "dehaka",
+          "name": "Dehaka",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "diablo",
+          "name": "Diablo",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "dva",
+          "name": "D.Va",
+          "records": 35,
+          "withImages": 35
+        },
+        {
+          "id": "etc",
+          "name": "E.T.C.",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "falstad",
+          "name": "Falstad",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "fenix",
+          "name": "Fenix",
+          "records": 29,
+          "withImages": 29
+        },
+        {
+          "id": "gall",
+          "name": "Gall",
+          "records": 29,
+          "withImages": 29
+        },
+        {
+          "id": "garrosh",
+          "name": "Garrosh",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "gazlowe",
+          "name": "Gazlowe",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "genji",
+          "name": "Genji",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "greymane",
+          "name": "Greymane",
+          "records": 30,
+          "withImages": 30
+        },
+        {
+          "id": "guldan",
+          "name": "Gul'dan",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "hanzo",
+          "name": "Hanzo",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "hogger",
+          "name": "Hogger",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "illidan",
+          "name": "Illidan",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "imperius",
+          "name": "Imperius",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "jaina",
+          "name": "Jaina",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "johanna",
+          "name": "Johanna",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "junkrat",
+          "name": "Junkrat",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "kaelthas",
+          "name": "Kael'thas",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "kelthuzad",
+          "name": "Kel'Thuzad",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "kerrigan",
+          "name": "Kerrigan",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "kharazim",
+          "name": "Kharazim",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "leoric",
+          "name": "Leoric",
+          "records": 29,
+          "withImages": 29
+        },
+        {
+          "id": "lili",
+          "name": "Li Li",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "liming",
+          "name": "Li-Ming",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "lostvikings",
+          "name": "The Lost Vikings",
+          "records": 38,
+          "withImages": 38
+        },
+        {
+          "id": "ltmorales",
+          "name": "Lt. Morales",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "lucio",
+          "name": "Lúcio",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "lunara",
+          "name": "Lunara",
+          "records": 30,
+          "withImages": 30
+        },
+        {
+          "id": "maiev",
+          "name": "Maiev",
+          "records": 26,
+          "withImages": 26
+        },
+        {
+          "id": "malfurion",
+          "name": "Malfurion",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "malganis",
+          "name": "Mal'Ganis",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "malthael",
+          "name": "Malthael",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "medivh",
+          "name": "Medivh",
+          "records": 29,
+          "withImages": 29
+        },
+        {
+          "id": "mei",
+          "name": "Mei",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "mephisto",
+          "name": "Mephisto",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "muradin",
+          "name": "Muradin",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "murky",
+          "name": "Murky",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "nazeebo",
+          "name": "Nazeebo",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "nova",
+          "name": "Nova",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "orphea",
+          "name": "Orphea",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "probius",
+          "name": "Probius",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "qhira",
+          "name": "Qhira",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "ragnaros",
+          "name": "Ragnaros",
+          "records": 31,
+          "withImages": 31
+        },
+        {
+          "id": "raynor",
+          "name": "Raynor",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "rehgar",
+          "name": "Rehgar",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "rexxar",
+          "name": "Rexxar",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "samuro",
+          "name": "Samuro",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "sgthammer",
+          "name": "Sgt. Hammer",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "sonya",
+          "name": "Sonya",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "stitches",
+          "name": "Stitches",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "stukov",
+          "name": "Stukov",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "sylvanas",
+          "name": "Sylvanas",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "tassadar",
+          "name": "Tassadar",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "thebutcher",
+          "name": "The Butcher",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "thrall",
+          "name": "Thrall",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "tracer",
+          "name": "Tracer",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "tychus",
+          "name": "Tychus",
+          "records": 30,
+          "withImages": 30
+        },
+        {
+          "id": "tyrael",
+          "name": "Tyrael",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "tyrande",
+          "name": "Tyrande",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "uther",
+          "name": "Uther",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "valeera",
+          "name": "Valeera",
+          "records": 33,
+          "withImages": 33
+        },
+        {
+          "id": "valla",
+          "name": "Valla",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "varian",
+          "name": "Varian",
+          "records": 29,
+          "withImages": 29
+        },
+        {
+          "id": "whitemane",
+          "name": "Whitemane",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "xul",
+          "name": "Xul",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "yrel",
+          "name": "Yrel",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "zagara",
+          "name": "Zagara",
+          "records": 27,
+          "withImages": 27
+        },
+        {
+          "id": "zarya",
+          "name": "Zarya",
+          "records": 30,
+          "withImages": 30
+        },
+        {
+          "id": "zeratul",
+          "name": "Zeratul",
+          "records": 28,
+          "withImages": 28
+        },
+        {
+          "id": "zuljin",
+          "name": "Zul'jin",
+          "records": 28,
+          "withImages": 28
+        }
+      ],
+      "scope": "源数据停留在2023-11-17：覆盖该仓库全部英雄文件中的技能、特质和天赋；独立状态图标未接入。社区名单覆盖不等于当前客户端完整度。",
+      "source": "https://github.com/heroespatchnotes/heroes-talents",
+      "revision": "2dcbbf65f81bc3ce85926a5f90b6d8b44d1e4027",
+      "records": 2530,
+      "withImages": 2530,
+      "missingImages": 0,
+      "uniqueImages": 1038,
+      "kinds": {
+        "天赋": 1915,
+        "技能": 522,
+        "被动": 93
+      }
+    },
+    "gameicons": {
+      "name": "Game-icons.net",
+      "badge": "GI",
+      "date": "2026-11-02",
+      "label": "精选主题",
+      "indexed": 4,
+      "expected": 4,
+      "unit": "主题",
+      "scope": "武器、元素法术、状态轮廓、构图符号各取最多40条，非全项目收录；CC BY 3.0，逐条标注作者。",
+      "source": "https://github.com/game-icons/icons",
+      "revision": "82d948812bfe3f269ef8f731dcdb07b08160edc4",
+      "records": 159,
+      "withImages": 159,
+      "missingImages": 0,
+      "uniqueImages": 159,
+      "kinds": {
+        "图标素材": 159
+      }
+    },
+    "ow": {
+      "name": "守望先锋",
+      "badge": "OW",
+      "date": "2026-10-27",
+      "label": "精选英雄",
+      "indexed": 8,
+      "expected": null,
+      "unit": "英雄",
+      "scope": "39个官方技能图标；仅8位英雄精选，未核对当前全英雄。",
+      "source": "https://overwatch.blizzard.com/en-us/heroes/",
+      "records": 39,
+      "withImages": 39,
+      "missingImages": 0,
+      "uniqueImages": 39,
+      "kinds": {
+        "技能": 39
+      }
+    }
+  },
+  "reviewedAt": "2026-11-02",
+  "priorities": [
+    {
+      "rank": 1,
+      "name": "激战 2",
+      "game": "gw2",
+      "status": "已补充",
+      "reason": "补足奇幻职业、武器技能、元素魔法和独立增益/症状。",
+      "url": "https://api.guildwars2.com/v2/skills"
+    },
+    {
+      "rank": 2,
+      "name": "最终幻想 XIV",
+      "game": "ffxiv",
+      "status": "已补充动作；状态待接入",
+      "reason": "增加职业成套图标、姿态与不同元素的视觉表达；独立Status接口受限。",
+      "url": "https://na.finalfantasyxiv.com/jobguide/battle/"
+    },
+    {
+      "rank": 3,
+      "name": "风暴英雄",
+      "game": "hots",
+      "status": "已补充",
+      "reason": "与MOBA最接近，补充暴雪彩绘技能、特质及天赋变化。",
+      "url": "https://github.com/heroespatchnotes/heroes-talents"
+    },
+    {
+      "rank": 4,
+      "name": "Game-icons.net",
+      "game": "gameicons",
+      "status": "已补充主题精选",
+      "reason": "补强回旋镖、飞刀、剑与状态轮廓；可按许可署名使用的SVG项目。",
+      "url": "https://game-icons.net/"
+    },
+    {
+      "rank": 5,
+      "name": "魔兽世界",
+      "status": "后续优先 · 尚未入库",
+      "reason": "彩绘法术、武器和状态图的高价值参照；完整官方数据接入需OAuth应用凭据，本次未具备。",
+      "url": "https://develop.battle.net/documentation/world-of-warcraft/game-data-apis"
+    },
+    {
+      "rank": 6,
+      "name": "流放之路 1 / 2",
+      "status": "后续 · 尚未入库",
+      "reason": "适合暗黑诅咒、光环、异常状态；需分别核对两代游戏，并区分技能宝石与状态原图。",
+      "url": "https://www.poewiki.net/wiki/Buff"
+    },
+    {
+      "rank": 7,
+      "name": "暗黑破坏神 IV / Grim Dawn",
+      "status": "后续 · 尚未入库",
+      "reason": "补充低饱和暗黑彩绘、被动星座与持续状态；需建立可验证的公开索引。",
+      "url": "https://www.grimtools.com/calc/"
+    },
+    {
+      "rank": 8,
+      "name": "Kenney 图标资源",
+      "status": "后续 · 尚未入库",
+      "reason": "适合扁平轮廓和低尺寸可读性，与彩绘游戏风格形成对照；按具体资源包核对许可。",
+      "url": "https://kenney.nl/assets"
+    }
+  ],
+  "rosterReview": {
+    "date": "2026-11-02",
+    "lolVersion": "16.21.1",
+    "dota": {
+      "liveTotal": 127,
+      "added": [],
+      "removed": []
+    },
+    "lol": {
+      "liveTotal": 173,
+      "added": [],
+      "removed": []
+    }
+  }
 }
